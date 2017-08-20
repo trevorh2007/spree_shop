@@ -860,12 +860,13 @@ a.button {
 }
 
 #checkout-summary {
-	padding: 0;
+	padding: 1%;
 	height: auto;
   text-align: center;
   border: 1px solid #d9d9db;
-  margin-top: 23px;
+  margin-bottom: 63px;
   margin-left: 0;
+  font-size: 12px;
 }
 
 table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
@@ -1027,7 +1028,7 @@ abbr[title] {
 }
 
 .field.checkbox {
-	float: right;
+	padding-left: 25px;
 }
 
 .checkbox {
@@ -1036,4 +1037,5 @@ abbr[title] {
 
 .checkbox label {
 	padding-left: 0px;
+	font-size: 12px;
 }
