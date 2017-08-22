@@ -6,10 +6,10 @@
   <div id="checkout" data-hook>
     <%= render partial: 'spree/shared/error_messages', locals: { target: @order } %>
 
-      <div class="checkout-header-padding">
-    <div class="row" data-hook="checkout_header">
+    <div class="checkout-header-padding">
+      <div class="row justify-content-center" data-hook="checkout_header">
        <div class="col-sm-3 col-3">
-          <h1 class="text-center" data-hook="checkout_title"><%= Spree.t(:checkout) %></h1>
+          <h3 class="text-center vertical-align" data-hook="checkout_title"><%= Spree.t(:checkout) %></h3>
         </div>
         <div class="col-sm-9 col-9" data-hook="checkout_progress">
           <%= checkout_progress %>
@@ -22,7 +22,7 @@
         <%= form_for @order, url: update_checkout_path(@order.state), html: { id: "checkout_form_#{@order.state}" } do |form| %>
           <% if @order.state == 'address' || !@order.email? %>
             <p class="field" style='clear: both'>
-              <%= form.label :email %>
+              <%= form.label :email, "Customer E-Mail", class: "font-size-12" %>
               <%= form.text_field :email, class: 'form-control checkout-email-width', required: true %>
             </p>
           <% end %>
