@@ -6,7 +6,6 @@
       shipping: '<%= order.shipment_total %>',
       tax: '<%= order.additional_tax_total %>',
       discount: '<%= order.promo_total %>',
-      coupon: '<%= order.promo_code %>',
       currency: '<%= order.currency %>',
       products: [
       <% order.line_items.each do |line_item| %>

@@ -6,25 +6,26 @@
     <%= render partial: 'spree/shared/google_purchase.js', locals: { order: @order } %>
   <% end %>
 <% end %>
+<div class="container">
+  <fieldset id="order_summary" data-hook>
+    <h3 class="final-order-padding text-center success-background"><%= accurate_title %></h3>
+    <% if order_just_completed?(@order) %>
+      <strong class="text-center"><%= Spree.t(:thank_you_for_your_order) %></strong>
+    <% end %>
 
-<fieldset id="order_summary" data-hook>
-  <h1><%= accurate_title %></h1>
-  <% if order_just_completed?(@order) %>
-    <strong><%= Spree.t(:thank_you_for_your_order) %></strong>
-  <% end %>
+    <div id="order" data-hook>
+      <%= render partial: 'spree/shared/order_details', locals: { order: @order } %>
 
-  <div id="order" data-hook>
-    <%= render partial: 'spree/shared/order_details', locals: { order: @order } %>
+      <br class="clear" />
 
-    <br class="clear" />
-
-    <p data-hook="links">
-      <%= link_to Spree.t(:back_to_store), spree.root_path, class: "button" %>
-      <% unless order_just_completed?(@order) %>
-        <% if try_spree_current_user && respond_to?(:account_path) %>
-          <%= link_to Spree.t(:my_account), account_path, class: "button" %>
+      <p data-hook="links">
+        <%= link_to Spree.t(:back_to_store), spree.root_path, class: "btn btn-success" %>
+        <% unless order_just_completed?(@order) %>
+          <% if try_spree_current_user && respond_to?(:account_path) %>
+            <%= link_to Spree.t(:my_account), account_path, class: "btn btn-primary" %>
+          <% end %>
         <% end %>
-      <% end %>
-    </p>
-  </div>
-</fieldset>
+      </p>
+    </div>
+  </fieldset>
+</div>
