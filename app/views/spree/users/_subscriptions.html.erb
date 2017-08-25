@@ -1,0 +1,32 @@
+<%= render partial: 'spree/admin/shared/flash_messages' %>
+
+<div data-hook="account_my_subscriptions" class="account-my-subscriptions">
+  <h4 class="text-center dark-grey-background">
+    <div class="my-account-padding">
+      <%= Spree.t(:my_subscriptions) %>
+    </div>
+  </h4>
+  <% if @subscriptions.present? %>
+    <table class="table subscription-summary">
+      <thead class="active">
+      <tr class="light-grey-background">
+        <th class="subscription-number"><%= Spree::Subscription.human_attribute_name(:number) %></th>
+        <th class="subscription-product-name"><%= Spree.t(:product_name) %></th>
+        <th class="subscription-price text-center"><%= Spree.t(:price) %></th>
+        <th class="subscription-started text-center">Started On</th>
+        <th class="subscription-frequency text-center">Delivery Interval</th>
+        <th class="subscription-delivery-number text-center"><%= Spree.t(:total_deliveries) %></th>
+        <th class="subscription-deliveries-left text-center"><%= Spree.t(:deliveries_left) %></th>
+        <th class="subscription-actions">Status</th>
+      </tr>
+      </thead>
+      <tbody id="user_subscriptions">
+        <%= render @subscriptions %>
+      </tbody>
+    </table>
+  <% else %>
+    <div class="alert alert-info"><%= Spree.t(:you_have_no_subscriptions_yet) %></div>
+  <% end %>
+  <br />
+
+</div>
