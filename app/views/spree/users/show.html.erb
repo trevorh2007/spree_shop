@@ -4,6 +4,7 @@
       <%= accurate_title %>
     </div>
   </h2>
+
   <br>
   <div data-hook="account_summary" class="account-summary">
     <dl id="user-info">
@@ -39,7 +40,7 @@
             <td class="order-status"><%= Spree.t("order_state.#{order.state}").titleize %></td>
             <td class="order-payment-state"><%= Spree.t("payment_states.#{order.payment_state}").titleize if order.payment_state %></td>
             <td class="order-shipment-state"><%= Spree.t("shipment_states.#{order.shipment_state}").titleize if order.shipment_state %></td>
-            <td class="lead text-primary order-total"><%= order.display_total %></td>
+            <td class="blue-text"><%= order.display_total %></td>
           </tr>
         <% end %>
         </tbody>
