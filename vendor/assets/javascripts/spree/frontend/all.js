@@ -9,6 +9,7 @@
 //= require jquery-ui
 //= require spree/frontend
 //= require gritter
+//= require popper
 //= require bootstrap-sprockets
 
 //= require_tree .

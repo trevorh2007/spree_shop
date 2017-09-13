@@ -5,13 +5,16 @@ module Spree
       alert = flash[:alert]
       error = flash[:error]
       notice = flash[:notice]
+      success = flash[:success]
 
       if alert
-        js add_gritter(alert, title: "Trevor Howard Portfolio", sticky: false, image: :warning)
+        js add_gritter(alert, title: "My Missionary Box", sticky: false, image: :warning)
       elsif error
-        js add_gritter(error, title: "Trevor Howard Portfolio", sticky: false, image: :error)
+        js add_gritter(error, title: "My Missionary Box", sticky: false, image: :error)      
+      elsif success
+        js add_gritter(success, title: "My Missionary Box", sticky: false, image: :success)
       else notice
-        js add_gritter(notice, title: "Trevor Howard Portfolio", sticky: false, image: :success)
+        js add_gritter(notice, title: "My Missionary Box", sticky: false, image: :notice)
       end
       
     end

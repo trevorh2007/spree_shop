@@ -1,7 +1,8 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
 @import "spree/frontend";
 @import "spree/frontend/spree_product_subscriptions";
 @import "gritter";
-@import "jquery-ui";
 
 html, body {
   width: 100%;
