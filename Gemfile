@@ -33,3 +33,4 @@ gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_s
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sprockets-rails', '~> 3.2'
 gem 'jquery-ui-rails', '>= 5.0.5'
+gem 'gritter', '~> 1.2'

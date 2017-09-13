@@ -6,7 +6,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require spree/backend
+//= require gritter
+//= require bootstrap-sprockets
 
 //= require_tree .
 //= require spree/backend/spree_product_subscriptions
