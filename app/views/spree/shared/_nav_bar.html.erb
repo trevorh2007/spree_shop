@@ -21,8 +21,7 @@
 
     <div class="col-5">
         <div id="navbarNavDropdown" class="navbar-collapse collapse">
-          <ul class="navbar-nav mr-auto"></ul>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto float-right">
           <% if !signed_in? %>
             <li class="nav-item">
                 <%= link_fa_to 'user ', ' LOGIN ', login_path %>
