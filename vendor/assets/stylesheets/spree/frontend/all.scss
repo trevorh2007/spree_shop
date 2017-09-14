@@ -811,15 +811,6 @@ a.button {
 	color: white;
 }
 
-/*.progress-steps {
-	background-color: #444444;
-	color: white;
-}
-
-.progress-steps li {
-	color: white;
-}*/
-
 .progress-steps {
   list-style: decimal inside;
   overflow: auto;
@@ -871,6 +862,10 @@ a.button {
 #checkout-summary {
 	padding: 0;
 	height: auto;
+  text-align: center;
+  border: 1px solid #d9d9db;
+  margin-top: 23px;
+  margin-left: 0;
 }
 
 table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
@@ -984,4 +979,61 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 
 .table > tbody > tr > td {
 	vertical-align: middle;
+}
+
+.checkout-email-width {
+	width: 50%;
+}
+
+.checkout-header-padding {
+	margin-bottom: 4%;
+}
+
+#billing, #shipping, #shipping_method,
+#payment, #order_details, #order_summary {
+  margin-top: 10px;
+  border: 1px solid white;
+  padding: 10px;
+
+  legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #00ADEE;
+    padding: 5px;
+    margin-left: 15px;
+    border-bottom: none;
+  }
+}
+
+#billing {
+  input[type="text"], input[type="email"],
+  input[type="tel"], input[type="number"],
+  select, textarea {
+    width: 100%;
+  }
+}
+
+.inner {
+	font-size: 12px;
+}
+
+abbr[title] {
+	color: red;
+}
+
+.font-size-12 {
+	font-size: 12px;
+}
+
+.field.checkbox {
+	float: right;
+}
+
+.checkbox {
+	margin-top: -30px;
+}
+
+.checkbox label {
+	padding-left: 0px;
 }

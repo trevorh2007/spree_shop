@@ -85,7 +85,7 @@
   <% if Spree::Config[:alternative_shipping_phone] %>
     <p class="form-group" id=<%="#{address_id}altphone" %>>
       <%= form.label :alternative_phone, Spree.t(:alternative_phone) %>
-      <%= form.phone_field :alternative_phone, class: 'form-control' %>
+      <%= form.phone_field :alternative_phone, id: "phone", class: 'form-control' %>
     </p>
   <% end %>
 </div>
