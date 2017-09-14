@@ -326,7 +326,8 @@ footer, .push {
 
 .sister-btn-styles2 h2 {
 	color: white;
-
+	font-size: 20px;
+	margin: 1%;
 }
 
 .sister-card-background {
@@ -633,6 +634,9 @@ ul#products li .product-image img {
 	color: white;
 }
 
+.thumbnail {
+	padding: 0px;
+}
 #product-thumbnails li {
 	border: none;
 }
@@ -644,6 +648,7 @@ ul#products li .product-image img {
 #product-images #main-image img {
 	max-width: auto;
 	min-height: auto;
+	width: 100%;
 }
 
 #product-thumbnails li img {
@@ -901,4 +906,12 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 
 .float-right {
 	float: right;
+}
+
+.panel-body {
+	padding: 0px;
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+	outline: none;
 }
