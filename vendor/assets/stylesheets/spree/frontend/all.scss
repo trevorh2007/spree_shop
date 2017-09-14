@@ -811,13 +811,57 @@ a.button {
 	color: white;
 }
 
-.progress-steps {
+/*.progress-steps {
 	background-color: #444444;
 	color: white;
 }
 
 .progress-steps li {
 	color: white;
+}*/
+
+.progress-steps {
+  list-style: decimal inside;
+  overflow: auto;
+  background-color: #444444;
+  font-size: 12px;
+
+  li {
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: white;
+
+
+    &.current-first, &.current {
+      background-color: #337ab7;
+      color: white;
+    }
+
+    &.completed-first, &.completed {
+      background-color: #00ff00;
+      color: white;
+
+      a {
+        color: white;
+      }
+
+      &:hover {
+        background-color: #222;
+        color: #111;
+
+        a {
+          color: white;
+
+          &:hover {
+            color: #444;
+          }
+        }
+      }
+    }
+  }
 }
 
 .field.checkbox {
