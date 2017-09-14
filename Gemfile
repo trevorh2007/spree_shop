@@ -30,7 +30,5 @@ gem 'spree', '~> 3.2.0'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_subscriptions'
-
-gem 'sprockets-rails', '~> 3.2'
 gem 'jquery-ui-rails', '>= 5.0.5'
 gem 'gritter', '~> 1.2'
