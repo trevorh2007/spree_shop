@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -32,3 +33,4 @@ gem 'spree_gateway', '~> 3.3'
 gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_subscriptions'
 gem 'jquery-ui-rails', '>= 5.0.5'
 gem 'gritter', '~> 1.2'
+gem 'aws-sdk', '< 2.0'
