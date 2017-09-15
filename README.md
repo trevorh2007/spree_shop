@@ -39,7 +39,7 @@ X image sizes on products, higher res
 - fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
 - Figure out required: acceptance for terms and conditions before placing order
 - Set up mailers for when orders are placed, forgot password, order confirmation to customers
-- USPS tax calculator, international calculator for shipping methods
+- stamps.com/developer USPS tax calculator, international calculator for shipping methods
 - Auto fill for subscription order show page
 - Subscription order view page styles
 - Message for missionary to be included
@@ -47,3 +47,5 @@ X image sizes on products, higher res
 - mobile integration, make sure all pages look good on mobile screens
 - Terms and conditions link linked up
 - SSL certificate with godaddy
+- S3 AWS Setup in backend
+- 
