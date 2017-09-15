@@ -26,6 +26,7 @@
     <% if Spree::Config[:shipping_instructions] %>
       <p id="minstrs" data-hook>
         <p class="text-center">Send a special message to your loved one!</p>
+        <p class="text-center font-size-12">This message will be included with shipment<p>
         <%= form.text_area :special_instructions, cols: 40, rows: 4, class: "form-control", placeholder: "Add message to be included with shipment" %>
       </p>
     <% end %>
