@@ -14,7 +14,7 @@ module Spree
       elsif success
         js add_gritter(success, title: "My Missionary Box", sticky: false, image: :success)
       else notice
-        js add_gritter(notice, title: "My Missionary Box", sticky: false, image: :notice)
+        js add_gritter(notice, title: "My Missionary Box", sticky: false, image: :success)
       end
       
     end
