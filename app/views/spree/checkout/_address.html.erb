@@ -22,6 +22,15 @@
   </div>
   <hr class="clear" />
 
+  <div class="col-md-12">
+    <% if Spree::Config[:shipping_instructions] %>
+      <p id="minstrs" data-hook>
+        <p class="text-center">Send a special message to your loved one!</p>
+        <%= form.text_area :special_instructions, cols: 40, rows: 4, class: "form-control", placeholder: "Add message to be included with shipment" %>
+      </p>
+    <% end %>
+  </div>
+
   <div class="form-buttons" data-hook="buttons">
     <%= submit_tag Spree.t(:save_and_continue), class: 'continue btn btn-primary' %>
     <% if try_spree_current_user %>

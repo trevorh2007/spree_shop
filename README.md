@@ -47,5 +47,5 @@ X image sizes on products, higher res
 - mobile integration, make sure all pages look good on mobile screens
 - Terms and conditions link linked up
 - SSL certificate with godaddy
-- S3 AWS Setup in backend
-- 
+X S3 AWS Setup in backend
+- Favicon integration
