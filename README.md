@@ -8,9 +8,6 @@ X Dropdown in shipping address to only ship to available places
 X get thumbnail pictures to pull up when clicked for products, or enlarged
 X footer is all jacked again, white space while on mobile at bottom of page
 
-- shipping address phone validator
-- fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
-- Figure out required: acceptance for terms and conditions before placing order
 X Figure out gritter notifications
 
 X Update nav bar so it is a separate div from the picture imitate meundies.com
@@ -29,22 +26,20 @@ X Terms and Conditions
 X Privacy Notice
 X Stripe payment info
 X Styling tips
+X dark theme account page
+X fix low res images being used on product show page
+X subscriptions
+X figure out the error for existing payment method template error after hitting checkout button from cart
+X image sizes on products, higher res
 
 - mobile 
-X dark theme account page
 - add terms and conditions from kyles email
 - add privacy from email 
-
-
-
-
+- shipping address phone validator
+- fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
+- Figure out required: acceptance for terms and conditions before placing order
 - Set up mailers for when orders are placed, forgot password, order confirmation to customers
-- fix low res images being used on product show page
-- solidus subscriptions
-- figure out the error for existing payment method template error after hitting checkout button from cart
-
 - USPS tax calculator, international calculator for shipping methods
-- image sizes on products, higher res
 - Auto fill for subscription order show page
 - Subscription order view page styles
 - Message for missionary to be included
