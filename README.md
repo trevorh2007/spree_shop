@@ -31,12 +31,13 @@ X fix low res images being used on product show page
 X subscriptions
 X figure out the error for existing payment method template error after hitting checkout button from cart
 X image sizes on products, higher res
+X fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
+X S3 AWS Setup in backend
 
 - mobile 
 - add terms and conditions from kyles email
 - add privacy from email 
 - shipping address phone validator
-- fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
 - Figure out required: acceptance for terms and conditions before placing order
 - Set up mailers for when orders are placed, forgot password, order confirmation to customers
 - stamps.com/developer USPS tax calculator, international calculator for shipping methods
@@ -47,5 +48,4 @@ X image sizes on products, higher res
 - mobile integration, make sure all pages look good on mobile screens
 - Terms and conditions link linked up
 - SSL certificate with godaddy
-X S3 AWS Setup in backend
 - Favicon integration

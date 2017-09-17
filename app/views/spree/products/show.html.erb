@@ -18,11 +18,11 @@
           </div>
 
           <div data-hook="product_properties">
-            <%= render partial: 'properties' %>
+            <%#= render partial: 'properties' %>
           </div>
 
           <div data-hook="promotions">
-            <%= render partial: 'promotions' %>
+            <%#= render partial: 'promotions' %>
           </div>
         </div>
       </div>
@@ -30,9 +30,11 @@
       <div class="col-md-8 col-sm-7" data-hook="product_right_part">
         <div data-hook="product_right_part_wrap">
           <div id="product-description" data-hook="product_description">
-            <h1 class="product-title" itemprop="name"><%= @product.name %></h1>
+            <h3 class="product-title" itemprop="name"><%= @product.name %></h3>
 
-            <div class="well" itemprop="description" data-hook="description">
+            <br>
+
+            <div class="light-grey-background text-white my-account-padding" itemprop="description" data-hook="description">
               <%= product_description(@product) %>
             </div>
 
