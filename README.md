@@ -37,17 +37,17 @@ X fix cart show page on mobile, maybe do an if/else in the code file, find out i
 X S3 AWS Setup in backend
 X Favicon integration
 X Message for missionary to be included
+X add terms and conditions from kyles email
+X add privacy from email 
+X rootbizzle.com/howitworks use this as a wireframe for how it works page
+X Terms and conditions link linked up
 
 - mobile 
-- add terms and conditions from kyles email
-- add privacy from email 
 - shipping address phone validator
 - Figure out required: acceptance for terms and conditions before placing order
 - Set up mailers for when orders are placed, forgot password, order confirmation to customers
 - stamps.com/developer USPS tax calculator, international calculator for shipping methods
 - Auto fill for subscription order show page
 - Subscription order view page styles
-- rootbizzle.com/howitworks use this as a wireframe for how it works page
 - mobile integration, make sure all pages look good on mobile screens
-- Terms and conditions link linked up
 - SSL certificate with godaddy
