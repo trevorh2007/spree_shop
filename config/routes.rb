@@ -9,4 +9,5 @@ Rails.application.routes.draw do
           # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   get 'howitworks', to: 'spree/home#how_it_works'
+  get 'terms', to: 'spree/home#terms'
 end
