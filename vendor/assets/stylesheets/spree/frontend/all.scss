@@ -1155,7 +1155,7 @@ ul#payment-methods {
     font-size: 38px;
     letter-spacing: 1px;
     font-family: 'Vollkorn';
-    color: #00ffff;
+    color: #fff;
     margin-top: 35px;
 }
 
@@ -1164,4 +1164,12 @@ ul#payment-methods {
     font-size: .9em;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.stepheader {
+	color: #fff;
+}
+
+.steps-hr-width {
+	width: 75%;
 }
