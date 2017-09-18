@@ -26,6 +26,8 @@ X Terms and Conditions
 X Privacy Notice
 X Stripe payment info
 X Styling tips
+
+##More TODO
 X dark theme account page
 X fix low res images being used on product show page
 X subscriptions
@@ -33,6 +35,8 @@ X figure out the error for existing payment method template error after hitting 
 X image sizes on products, higher res
 X fix cart show page on mobile, maybe do an if/else in the code file, find out if possible to use one set of styles if on mobile vs full screen
 X S3 AWS Setup in backend
+X Favicon integration
+X Message for missionary to be included
 
 - mobile 
 - add terms and conditions from kyles email
@@ -43,9 +47,7 @@ X S3 AWS Setup in backend
 - stamps.com/developer USPS tax calculator, international calculator for shipping methods
 - Auto fill for subscription order show page
 - Subscription order view page styles
-- Message for missionary to be included
 - rootbizzle.com/howitworks use this as a wireframe for how it works page
 - mobile integration, make sure all pages look good on mobile screens
 - Terms and conditions link linked up
 - SSL certificate with godaddy
-- Favicon integration

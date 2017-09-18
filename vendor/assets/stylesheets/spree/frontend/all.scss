@@ -1121,3 +1121,47 @@ ul#payment-methods {
 .my-account-padding {
 	padding: 10px;
 }
+
+.howimage1, .howimage2, .howimage3 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: none;
+    margin: 20px auto 40px auto;
+    min-height: 100px;
+    height: auto;
+}
+
+.step-by-step-area .headline {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Vollkron';
+    color: #313b5c;
+    text-transform: Capitalize;
+    border-bottom: 1px solid #d6d8de;
+    padding: 10px 0 40px 0;
+}
+
+.stepsubheader {
+    color: #dcb962;
+}
+
+.step-by-step-area {
+	margin: 30px 0px 50px 0px;
+}
+
+.step-by-step-area h2 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-family: 'Vollkorn';
+    color: #00ffff;
+    margin-top: 35px;
+}
+
+.step-by-step-area p {
+    margin-top: 15px;
+    font-size: .9em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
