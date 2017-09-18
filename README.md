@@ -51,3 +51,4 @@ X Terms and conditions link linked up
 - Subscription order view page styles
 - mobile integration, make sure all pages look good on mobile screens
 - SSL certificate with godaddy
+- Newsletter in footer filled out
