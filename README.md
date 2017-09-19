@@ -53,3 +53,7 @@ X Subscription order view page styles
 - SSL certificate with godaddy
 - Newsletter in footer filled out
 - check out spree_reviews
+
+active shipping steps
+
+set zone, create shipping category, set shipping method, include zone in shipping method
