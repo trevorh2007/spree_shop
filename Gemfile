@@ -34,3 +34,5 @@ gem 'spree_product_subscriptions', github: 'vinsol-spree-contrib/spree_product_s
 gem 'jquery-ui-rails', '>= 5.0.5'
 gem 'gritter', '~> 1.2'
 gem 'aws-sdk', '< 2.0'
+
+gem 'spree_active_shipping', github: 'spree-contrib/spree_active_shipping'

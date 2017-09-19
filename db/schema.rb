@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170919041703) do
+ActiveRecord::Schema.define(version: 20170919053837) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -381,6 +381,16 @@ ActiveRecord::Schema.define(version: 20170919041703) do
     t.index ["option_type_id"], name: "index_spree_product_option_types_on_option_type_id", using: :btree
     t.index ["position"], name: "index_spree_product_option_types_on_position", using: :btree
     t.index ["product_id"], name: "index_spree_product_option_types_on_product_id", using: :btree
+  end
+
+  create_table "spree_product_packages", force: :cascade do |t|
+    t.integer  "product_id",             null: false
+    t.integer  "length",     default: 0, null: false
+    t.integer  "width",      default: 0, null: false
+    t.integer  "height",     default: 0, null: false
+    t.integer  "weight",     default: 0, null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "spree_product_promotion_rules", force: :cascade do |t|

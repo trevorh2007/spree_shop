@@ -52,3 +52,4 @@ X Subscription order view page styles
 - mobile integration, make sure all pages look good on mobile screens
 - SSL certificate with godaddy
 - Newsletter in footer filled out
+- check out spree_reviews
