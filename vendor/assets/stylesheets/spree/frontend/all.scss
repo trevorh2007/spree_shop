@@ -126,7 +126,7 @@ footer, .push {
 				background-size: cover;
 				background-repeat: no-repeat;
 				height: 275px;
-				margin-top: 0px;
+				margin-top: 0;
     }
     .main-img img {
     	opacity: .2;
@@ -205,6 +205,12 @@ footer, .push {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	padding: 25px;
+}
+
+@media only screen and (max-width: 650px) { 
+  .card-container { 
+    margin-top: 100px;
+  } 
 }
 
 .nav-container {
@@ -572,7 +578,7 @@ label {
 
 .navbar {
 	z-index: 1000;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 @media only screen and (min-width: 500px) { 
