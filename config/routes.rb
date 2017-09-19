@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 
   get 'howitworks', to: 'spree/home#how_it_works'
   get 'terms', to: 'spree/home#terms'
+  get 'contact', to: 'spree/home#contact'
 end

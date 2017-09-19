@@ -1,0 +1,23 @@
+<div class="login-page-styles">
+  <div class="container login-card-margin">
+    <div class="card login-card-style">
+
+      <h3 class="text-white text-center"><%= Spree.t(:create_a_new_account) %></h3>
+
+      <div id="new-customer" class="panel-body" data-hook="login">
+        <%= form_for @user, :as => :spree_user, :url => spree.registration_path(@user) do |f| %>
+          <div data-hook="signup_inside_form">
+            <%= render :partial => 'spree/shared/user_form', :locals => { :f => f } %>
+            <p><%= f.submit Spree.t(:create), :class => 'btn btn-primary btn-block' %></p>
+          </div>
+        <% end %>
+        <div class="text-center">
+          <p class="font-size-11">Already have an account?</p>
+            <%= link_to Spree.t(:login_as_existing), spree.login_path %>
+        </div>
+        <div data-hook="login_extras"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
