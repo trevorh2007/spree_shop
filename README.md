@@ -42,16 +42,16 @@ X add privacy from email
 X rootbizzle.com/howitworks use this as a wireframe for how it works page
 X Terms and conditions link linked up
 X Subscription order view page styles
+X Figure out required: acceptance for terms and conditions before placing order
+X stamps.com/developer USPS tax calculator, international calculator for shipping methods
 
-- mobile 
 - shipping address phone validator
-- Figure out required: acceptance for terms and conditions before placing order
-- Set up mailers for when orders are placed, forgot password, order confirmation to customers
-- stamps.com/developer USPS tax calculator, international calculator for shipping methods
+- Set up mailers for when orders are placed, forgot password, order confirmation to customers (styles)
 - Auto fill for subscription order show page
 - mobile integration, make sure all pages look good on mobile screens
 - SSL certificate with godaddy
 - Newsletter in footer filled out
+
 - check out spree_reviews
 
 active shipping steps
