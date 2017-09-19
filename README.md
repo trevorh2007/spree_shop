@@ -41,6 +41,7 @@ X add terms and conditions from kyles email
 X add privacy from email 
 X rootbizzle.com/howitworks use this as a wireframe for how it works page
 X Terms and conditions link linked up
+X Subscription order view page styles
 
 - mobile 
 - shipping address phone validator
@@ -48,7 +49,6 @@ X Terms and conditions link linked up
 - Set up mailers for when orders are placed, forgot password, order confirmation to customers
 - stamps.com/developer USPS tax calculator, international calculator for shipping methods
 - Auto fill for subscription order show page
-- Subscription order view page styles
 - mobile integration, make sure all pages look good on mobile screens
 - SSL certificate with godaddy
 - Newsletter in footer filled out
