@@ -1255,3 +1255,12 @@ ul#payment-methods {
 	background-color: red;
 	padding: 10px;
 }
+
+
+.navbar-collapse.in {
+	overflow-y: visible;
+}
+
+.navbar-collapse {
+	overflow: visible;
+}
