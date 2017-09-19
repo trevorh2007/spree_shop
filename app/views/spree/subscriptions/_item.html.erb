@@ -21,11 +21,11 @@
       <tbody>
         <tr class="line-item" id="line-item-<%= @subscription.id %>">
           <td class="line-item-image image text-center">
-            <%= mini_image(@subscription.variant) %>
+            <%= @subscription.variant.name %>
           </td>
           <td class="line-item-price text-center">
             <div data-hook="admin_subscription_price_form" data-subscription-id="<%= @subscription.id %>">
-              <%= number_to_currency(@subscription.price) %>
+              <%= number_to_currency(@subscription.price) %> monthly
             </div>
           </td>
           <td class="line-item-qty-show text-center">
