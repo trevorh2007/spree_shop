@@ -8,13 +8,13 @@ module Spree
       success = flash[:success]
 
       if alert
-        js add_gritter(alert, title: "My Missionary Box", sticky: false, image: :warning)
+        js add_gritter(alert, title: "My Missionary Box", sticky: false, image: :warning, time: 3000)
       elsif error
-        js add_gritter(error, title: "My Missionary Box", sticky: false, image: :error)      
+        js add_gritter(error, title: "My Missionary Box", sticky: false, image: :error, time: 3000)      
       elsif success
-        js add_gritter(success, title: "My Missionary Box", sticky: false, image: :success)
+        js add_gritter(success, title: "My Missionary Box", sticky: false, image: :success, time: 3000)
       else notice
-        js add_gritter(notice, title: "My Missionary Box", sticky: false, image: :success)
+        js add_gritter(notice, title: "My Missionary Box", sticky: false, image: :success, time: 3000)
       end
       
     end

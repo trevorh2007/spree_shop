@@ -424,7 +424,7 @@ footer, .push {
 .limit-min-max h1 {
   @include responsive-font(3vw, 25px, 50px);
 	color: white;
-  -webkit-text-stroke: .5px black;
+  text-shadow: 4px 2px #000;
   padding: 0px 0 15px 0;
   max-width: 100%;
 }
@@ -432,7 +432,6 @@ footer, .push {
 .limit-min-max h3 {
   @include responsive-font(1.75vw, 20px, 25px);
 	color: white;
-  -webkit-text-stroke: .5px black;
   padding: 15px 0 15px 0;
   max-width: 100%;
 }
@@ -440,7 +439,6 @@ footer, .push {
 .limit-min-max2 h1 {
   @include responsive-font(3vw, 20px, 90px);
 	color: white;
-  -webkit-text-stroke: 1px black;
   padding: 0px 0 15px 0;
   max-width: 100%;
 }
@@ -448,7 +446,6 @@ footer, .push {
 .limit-min-max2 h3 {
   @include responsive-font(1.75vw, 15px, 90px);
 	color: white;
-  -webkit-text-stroke: 1px black;
   padding: 15px 0 15px 0;
   max-width: 100%;
 }
@@ -1201,5 +1198,12 @@ ul#payment-methods {
   height: 500px;
 	overflow-y: scroll;
 	margin-top: 25px;
+}
 
+.gritter-item.gritter-css3 {
+	background-color: #0275d8;
+}
+
+.gritter-title {
+	text-shadow: none;
 }
