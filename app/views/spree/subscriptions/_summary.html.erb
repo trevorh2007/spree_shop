@@ -1,6 +1,6 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= Spree.t(:subscription_summary) %></h3>
+    <h3 class="panel-title text-center"><%= Spree.t(:subscription_summary) %></h3>
   </div>
 
   <table class="table table-condensed table-bordered" id="subscription_tab_summary" data-hook>
@@ -21,26 +21,18 @@
       </tr>
       <tr>
         <td>
-          <strong><%= Spree.t(:next_occurrence_at) %>:</strong>
+          <strong>Next Subscription:</strong>
         </td>
         <td id="next_occurrence_at">
-          <%= f.field_container :next_occurrence_at, class: ["form-group"] do %>
-            <%= f.text_field :next_occurrence_at, class: "form-control datepicker subscription_next_occurrence_at", disabled: @subscription.not_changeable? || @subscription.paused?, value: @subscription.next_occurrence_at.to_date %>
-            <%= f.error_message_on :next_occurrence_at %>
-          <% end %>
+          <%= @subscription.next_occurrence_at.to_date %>
         </td>
       </tr>
       <tr>
         <td>
-          <strong><%= Spree.t(:total_deliveries) %></strong>
+          <strong>Subscription Length:</strong>
         </td>
         <td>
-          <div data-hook="admin_subscription_delivery_number_form">
-            <%= f.field_container :delivery_number, class: ["form-group"] do %>
-              <%= number_field :subscription, :delivery_number, class: "form-control", disabled: @subscription.not_changeable? %>
-              <%= f.error_message_on :delivery_number %>
-            <% end %>
-          </div>
+          <%= @subscription.delivery_number %> Months
         </td>
       </tr>
       <tr>

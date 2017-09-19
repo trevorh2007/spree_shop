@@ -953,6 +953,14 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 	padding: 0px;
 }
 
+.panel-title {
+	color: white;
+}
+
+.panel-default > .panel-heading {
+	background-color: #333333;
+}
+
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
 	outline: none;
 }
@@ -1206,4 +1214,16 @@ ul#payment-methods {
 
 .gritter-title {
 	text-shadow: none;
+}
+
+.additional-info {
+	background-color: #444444;
+}
+
+.line-items {
+	background-color: #444444;
+}
+
+.select2 {
+	color: black;
 }

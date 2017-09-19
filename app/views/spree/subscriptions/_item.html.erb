@@ -1,13 +1,13 @@
 <div>
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h1 class="panel-title">
+      <h1 class="panel-title text-center">
         <%= Spree.t(:subscription_item) %>
       </h1>
     </div>
     <table class="table table-bordered line-items" data-hook="line-items">
       <thead>
-        <th colspan="2"><%= Spree.t(:name) %></th>
+        <th class="text-center"><%= Spree.t(:name) %></th>
         <th class="text-center">
           <%= f.label :price, Spree.t(:price) %><span class="required">*</span>
         </th>
@@ -23,29 +23,16 @@
           <td class="line-item-image image text-center">
             <%= mini_image(@subscription.variant) %>
           </td>
-          <td class="line-item-name text-center">
-            <%= collection_select(:subscription, :variant_id, @subscription.variant.product_variants, :id, :name, {}, data: { subscription_id: @subscription.id }) %>
-          </td>
           <td class="line-item-price text-center">
             <div data-hook="admin_subscription_price_form" data-subscription-id="<%= @subscription.id %>">
-              <%= @subscription.price %>
+              <%= number_to_currency(@subscription.price) %>
             </div>
           </td>
           <td class="line-item-qty-show text-center">
-            <div data-hook="admin_subscription_quantity_form">
-              <%= f.field_container :quantity, class: ["form-group"] do %>
-                <%= number_field :subscription, :quantity, { min: 1, disabled: @subscription.not_changeable? } %>
-                <%= f.error_message_on :quantity %>
-              <% end %>
-            </div>
+            <%= @subscription.quantity %>
           </td>
-          <td class="line-item-qty-edit">
-            <div data-hook="admin_subscription_frequency_form">
-              <%= f.field_container :frequency, class: ["form-group"] do %>
-                <%= f.collection_select :subscription_frequency_id, @subscription.variant.product.subscription_frequencies, :id, :title, {}, { class: "form-control", disabled: @subscription.not_changeable? } %>
-                <%= f.error_message_on :frequency %>
-              <% end %>
-            </div>
+          <td class="text-center">
+            <%= @subscription.variant.product.subscription_frequencies.last.title.capitalize %>
           </td>
         </tr>
       </tbody>

@@ -1,3 +1,4 @@
+<h4 class="text-white text-center">Update Billing or Shipping Address</h4>
 <div>
   <div class="row">
   <div data-hook="bill_address_wrapper" class="col-md-6">
@@ -6,7 +7,7 @@
         <h1 class="panel-title"><%= Spree.t(:billing_address) %></h1>
       </div>
 
-      <div class="panel-body">
+      <div class="panel-body light-grey-background">
         <% if @subscription.not_changeable? %>
           <%= render partial: 'spree/admin/shared/address', locals: { address: @subscription.bill_address } %>
         <% else %>
@@ -23,7 +24,7 @@
       <div class="panel-heading">
         <h1 class="panel-title"><%= Spree.t(:shipping_address) %></h1>
       </div>
-      <div class="panel-body">
+      <div class="panel-body light-grey-background">
         <% if @subscription.not_changeable? %>
           <%= render partial: 'spree/admin/shared/address', locals: { address: @subscription.ship_address } %>
         <% else %>
