@@ -36,3 +36,5 @@ gem 'gritter', '~> 1.2'
 gem 'aws-sdk', '< 2.0'
 
 gem 'spree_active_shipping', github: 'spree-contrib/spree_active_shipping'
+
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
