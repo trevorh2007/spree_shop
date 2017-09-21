@@ -58,6 +58,8 @@ X Auto fill for subscription order show page
 
 - check out spree_reviews
 
+- Add display; none to a @product.id == 1 in cart_checkboxes to prevent delivery interval from showing up
+
 active shipping steps
 
 set zone, create shipping category, set shipping method, include zone in shipping method

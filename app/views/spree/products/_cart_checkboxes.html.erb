@@ -3,8 +3,7 @@
     <br><br>
     <% subscription = Spree::Subscription.new %>
     <span id="hidden-collection">
-    	<%= label_tag :subscription, "Delivery Interval" %><span class="required">*</span>
-      <%= collection_select :subscription, :subscription_frequency_id, @product.subscription_frequencies, :id, :title, {}, { class: "form-control capitalize-sub-frequency" } %>
+      <%= collection_select :subscription, :subscription_frequency_id, @product.subscription_frequencies, :id, :title, {}, { class: "form-control capitalize-sub-frequency display-none" } %>
     </span>
     <br>
     <span>
