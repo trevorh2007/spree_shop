@@ -1,0 +1,33 @@
+<% if @product.subscribable? %>
+  <div class="subscription_options">
+    <br><br>
+    <% subscription = Spree::Subscription.new %>
+    <span id="hidden-collection">
+    	<%= label_tag :subscription, "Delivery Interval" %><span class="required">*</span>
+      <%= collection_select :subscription, :subscription_frequency_id, @product.subscription_frequencies, :id, :title, {}, { class: "form-control capitalize-sub-frequency" } %>
+    </span>
+    <br>
+    <span>
+      <% if @product.id == 1 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 1 %>
+      <% elsif @product.id == 2 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 6 %>
+      <% elsif @product.id == 3 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 12 %>
+      <% else @product.id == 4 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 24 %>
+      <% end %>
+    </span>
+    <span>
+      <%= label_tag :subscription, Spree.t(:quantity) %><span class="required">*</span>
+      <br>
+      <%= number_field_tag :quantity, 1, class: 'title form-control', min: 1 %>
+    </span>
+    <br>
+    <span class='input-group-btn'>
+      <%= button_tag class: 'btn btn-primary', id: 'subscribe-button', type: :submit, name: :subscribe, value: '1' do %>
+        <%= Spree.t(:subscribe_now) %>
+      <% end %>
+    </span>
+  </div>
+<% end %>

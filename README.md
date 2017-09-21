@@ -54,6 +54,8 @@ X Set up mailers for when orders are placed, forgot password, order confirmation
 
 - Need exact kind of envelope/package used for shipping to get rates
 
+- Need to bring up mailer options, first/last name get displayed when sending
+
 - check out spree_reviews
 
 active shipping steps
