@@ -11,7 +11,7 @@
       </tr>
       <tr>
         <td  width="35%" data-hook>
-          <strong><%= Spree.t(:original_order) %>:</strong>
+          <strong><%= Spree.t(:original_order) %></strong>
         </td>
         <td>
           <span>
@@ -21,7 +21,7 @@
       </tr>
       <tr>
         <td>
-          <strong>Next Subscription:</strong>
+          <strong>Next Subscription</strong>
         </td>
         <td id="next_occurrence_at">
           <%= @subscription.next_occurrence_at.to_date %>
@@ -29,7 +29,7 @@
       </tr>
       <tr>
         <td>
-          <strong>Subscription Length:</strong>
+          <strong>Subscription Length</strong>
         </td>
         <td>
           <%= @subscription.delivery_number %> Months
@@ -40,12 +40,7 @@
           <strong><%= Spree.t(:prior_notification_days_gap) %></strong>
         </td>
         <td>
-          <div data-hook="prior_notification_days_gap">
-            <%= f.field_container :prior_notification_days_gap, class: ["form-group"] do %>
-              <%= number_field :subscription, :prior_notification_days_gap, class: "form-control", disabled: @subscription.not_changeable? %>
-              <%= f.error_message_on :prior_notification_days_gap %>
-            <% end %>
-          </div>
+          <%= @subscription.prior_notification_days_gap %>
         </td>
       </tr>
       <tr>
