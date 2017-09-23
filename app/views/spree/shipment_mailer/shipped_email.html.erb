@@ -1,0 +1,62 @@
+<table class="row header">
+  <tr>
+    <td>
+      <h4 class="text-center">
+        Thank you for shopping at My Missionary Box
+      </h4>
+      <p class="text-center">
+        (Your missionary will thank you too!)
+      </p>
+      <hr>
+      <h6 class="text-center">
+        Hey <%= @shipment.order.bill_address.firstname %>! Your order #<%= @shipment.order.number %> has been shipped!
+      </h6>
+      <br>
+      <h6 class="text-center">
+        Shipment Summary
+      </h6>
+      <hr>
+      <table class="container">
+        <tr>
+          <td class="wrapper last">
+            <table class="twelve columns">
+              <%= render collection: @shipment.manifest.map(&:line_item), partial: 'spree/shared/mailer_line_item', as: :line_item %>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <%= Spree.t('shipment_mailer.shipped_email.shipping_method', shipping_method: @shipment.shipping_method.name) %>
+      </p>
+      <% if @shipment.tracking %>
+        <p>
+          <%= Spree.t('shipment_mailer.shipped_email.track_information', tracking: @shipment.tracking) %>
+        </p>
+      <% end %>
+      <% if @shipment.tracking_url %>
+        <p>
+          <%= Spree.t('shipment_mailer.shipped_email.track_link', url: link_to(@shipment.tracking_url, @shipment.tracking_url)).html_safe %>
+        </p>
+      <% end %>
+      <br>
+      <% if @shipment.order.special_instructions %>
+        <hr>
+        <p class="text-center"><strong>As a reminder this message was included with your shipment</strong></p>
+        <p>
+          <%= @shipment.order.special_instructions %>
+        </p>
+        <p class="text-center"><strong>You'll be able to include a brand new message with the next shipment.</strong></p>
+      <% end %>
+      <hr>
+      <br>
+      <p class="text-center">You can check the entire status of your order by clicking on My Account at <%= link_to "mymissionarybox.com", "www.mymissionarybox.com" %>.</p>
+      <br>
+      <p>
+        If you have questions about your order, please don't hesitate to reach out. You will receive an email confirmation once your order has shipped.
+      </p>
+      <p>Thank you,</p>
+      <h6 class="signature">My Missionary Box</h6>
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
