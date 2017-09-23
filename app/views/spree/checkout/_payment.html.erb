@@ -24,15 +24,7 @@
         </li>
       <% end %>
     </ul>
-    <br style="clear:both;" />
-    <p class='field' data-hook='coupon_code'>
-      <%= form.label :coupon_code %><br />
-      <%= form.text_field :coupon_code %>
-      <button type="button" class="btn btn-sm btn-primary" id="coupon-code-apply-button">
-        <%= Spree.t(:apply_code) %>
-      </button>
 
-    </p>
     <div id='coupon_status'></div>
 
   </div>
@@ -41,7 +33,7 @@
 <br class="space" />
 
 <div class="form-buttons" data-hook="buttons">
-  <%= submit_tag "Place Order", class: 'continue btn btn-success' %>
+  <%= submit_tag "Place Order", class: 'continue btn btn-lg btn-success float-right' %>
   <script>Spree.disableSaveOnClick();</script>
 </div>
 </div>
