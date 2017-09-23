@@ -30,11 +30,11 @@
     <% end %>
 
     <% if @product.price_in(current_currency) && !@product.price.nil? %>
-      <div data-hook="product_price" class="col-md-5">
+      <div data-hook="product_price" class="col-md-offset-6 col-md-6">
         <div id="product-price">
-          <h6 class="product-section-title"><%= Spree.t(:price) %></h6>
+          <br>
           <div>
-            <span class="lead price selling" itemprop="price" content="<%= @product.price_in(current_currency).amount.to_d %>">
+            <span class="lead price selling text-blue" itemprop="price" content="<%= @product.price_in(current_currency).amount.to_d %>">
               <%= display_price(@product) %>/mo
             </span>
             <span itemprop="priceCurrency" content="<%= current_currency %>"></span>

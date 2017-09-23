@@ -557,7 +557,7 @@ label {
 }
 
 .product-form-padding {
-	padding: 25px 5px 15.6rem 5px;
+	padding: 4rem 5px 5rem 5px;
 	background-color: #333333;
 }
 
@@ -615,7 +615,7 @@ ul#products li .product-image img {
 
 .products-show-margin {
 	background-color: #333333;
-	padding-bottom: 25.5rem;
+	padding-bottom: 3rem;
 }
 
 .captcha-width {
@@ -1058,6 +1058,10 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 	float: right;
 }
 
+#inside-product-cart-form.row {
+	text-align: right;
+}
+
 .panel-body {
 	padding: 0px;
 }
@@ -1414,4 +1418,25 @@ ul#payment-methods {
 
 .account-my-orders {
 	overflow-x: scroll;
+}
+
+.product-index-link {
+	color: white;
+}
+
+.product-index-link:hover {
+	color: white;
+}
+
+.text-blue {
+	color: #337ab7;
+}
+
+.product-index-padding {
+	padding-top: 10px;
+}
+
+.quantity-width {
+	width: 25%;
+  transform: translateX(300%);
 }

@@ -23,18 +23,21 @@
 
 <% if products.any? %>
   <div class="row">
-    <ul id="products" class="inline product-listing" data-hook>
+    <ul id="products" class="inline product-listing text-center" data-hook>
           <% products.each do |product| %>
             <% url = spree.product_path(product, taxon_id: @taxon.try(:id)) %>
-            <li id="product_<%= product.id %>" class="col-md-3" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+            <li id="product_<%= product.id %>" class="col-md-6 col-sm-6 col-xs-12" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
               <% cache(@taxon.present? ? [I18n.locale, current_price_options, @taxon, product] : [I18n.locale, current_price_options, product]) do %>
                 <div class="product-image">
                   <%= link_to image_tag(product.display_image.attachment(:large), itemprop: "image"), url, itemprop: 'url' %>
                 </div>
-                <%= link_to truncate(product.name, length: 50), url, class: 'info', itemprop: "name", title: product.name %>
-                <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-                  <span class="price selling" itemprop="price"><%= display_price(product) %>/mo</span>
-                </span>
+                <div class="product-index-padding">
+                  <%= link_to truncate(product.name, length: 50), url, class: 'info', itemprop: "name", title: product.name, class: "product-index-link" %>
+                  <br>
+                  <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <span class="price selling text-blue" itemprop="price"><%= display_price(product) %>/mo</span>
+                  </span>
+                </div>
               <% end %>
             </li>
           <% end %>
