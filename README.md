@@ -46,10 +46,10 @@ X Figure out required: acceptance for terms and conditions before placing order
 X stamps.com/developer USPS tax calculator, international calculator for shipping methods
 X Set up mailers for when orders are placed, forgot password, order confirmation to customers (styles)
 X Auto fill for subscription order show page
+X SSL certificate with godaddy
 
 - shipping address phone validator
 - mobile integration, make sure all pages look good on mobile screens
-- SSL certificate with godaddy
 - Newsletter in footer filled out
 
 X Need exact kind of envelope/package used for shipping to get rates

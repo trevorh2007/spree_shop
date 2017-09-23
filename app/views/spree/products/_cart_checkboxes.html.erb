@@ -10,11 +10,11 @@
       <% if @product.id == 1 %>
         <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 1 %>
       <% elsif @product.id == 2 %>
-        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 6 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 3 %>
       <% elsif @product.id == 3 %>
-        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 12 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 6 %>
       <% else @product.id == 4 %>
-        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 24 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", min: 1, value: 12 %>
       <% end %>
     </span>
     <span>
