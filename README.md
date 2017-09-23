@@ -52,18 +52,11 @@ X Auto fill for subscription order show page
 - SSL certificate with godaddy
 - Newsletter in footer filled out
 
-- Need exact kind of envelope/package used for shipping to get rates
+X Need exact kind of envelope/package used for shipping to get rates
 
 - Need to bring up mailer options, first/last name get displayed when sending
 
 - check out spree_reviews
 
-- hard code 7 days into subscription edit
-
-- 
-
+X hard code 7 days into subscription edit
 X Add display; none to a @product.id == 1 in cart_checkboxes to prevent delivery interval from showing up
-
-active shipping steps
-
-set zone, create shipping category, set shipping method, include zone in shipping method
