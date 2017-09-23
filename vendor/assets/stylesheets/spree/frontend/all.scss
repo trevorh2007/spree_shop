@@ -814,52 +814,144 @@ a.button {
 	color: white;
 }
 
-.progress-steps {
-  list-style: decimal inside;
-  overflow: auto;
+@media only screen and (min-width: 650px) { 
+	.progress-steps {
+	  list-style: decimal inside;
+	  overflow: auto;
+	  background-color: #444444;
+	  font-size: 12px;
+	  transform: translateY(50%);
+	  padding: 0;
+	  width: 65.0258%;
+
+	  li {
+	    float: left;
+	    margin-right: 20px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    padding: 5px 20px;
+	    color: white;
+
+
+	    &.current-first, &.current {
+	      background-color: #337ab7;
+	      color: white;
+	    }
+
+	    &.completed-first, &.completed {
+	      background-color: green;
+	      color: white;
+
+	      a {
+	        color: white;
+	      }
+
+	      &:hover {
+	        background-color: #00ff00;
+	        color: #111;
+
+	        a {
+	          color: white;
+
+	          &:hover {
+	            color: #111;
+	            text-decoration: none;
+	          }
+	        }
+	      }
+	    }
+	  }
+	}
+}
+
+@media only screen and (max-width: 650px) { 
+	.progress-steps {
   background-color: #444444;
   font-size: 12px;
-  transform: translateY(50%);
-  padding: 0;
-  width: 65.0258%;
 
-  li {
-    float: left;
-    margin-right: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px 20px;
-    color: white;
+	  li {
+	    float: left;
+	    margin-right: 20px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    padding: 5px 20px;
+	    color: white;
 
 
-    &.current-first, &.current {
-      background-color: #337ab7;
-      color: white;
-    }
+	    &.current-first, &.current {
+	      background-color: #337ab7;
+	      color: white;
+	    }
 
-    &.completed-first, &.completed {
-      background-color: green;
-      color: white;
+	    &.completed-first, &.completed {
+	      background-color: green;
+	      color: white;
 
-      a {
-        color: white;
-      }
+	      a {
+	        color: white;
+	      }
 
-      &:hover {
-        background-color: #00ff00;
-        color: #111;
+	      &:hover {
+	        background-color: #00ff00;
+	        color: #111;
 
-        a {
-          color: white;
+	        a {
+	          color: white;
 
-          &:hover {
-            color: #111;
-            text-decoration: none;
-          }
-        }
-      }
-    }
-  }
+	          &:hover {
+	            color: #111;
+	            text-decoration: none;
+	          }
+	        }
+	      }
+	    }
+	  }
+	}
+}
+
+@media only screen and (max-width: 450px) { 
+	.progress-steps {
+  background-color: #444444;
+  font-size: 12px;
+  transform: translate(20px,-15px);
+
+	  li {
+	    float: left;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    padding: 2px 55px;
+	    color: white;
+
+
+	    &.current-first, &.current {
+	      background-color: #337ab7;
+	      color: white;
+	    }
+
+	    &.completed-first, &.completed {
+	      background-color: green;
+	      color: white;
+
+	      a {
+	        color: white;
+	      }
+
+	      &:hover {
+	        background-color: #00ff00;
+	        color: #111;
+
+	        a {
+	          color: white;
+
+	          &:hover {
+	            color: #111;
+	            text-decoration: none;
+	          }
+	        }
+	      }
+	    }
+	  }
+	}
 }
 
 .field.checkbox {
@@ -868,12 +960,16 @@ a.button {
 
 #checkout-summary {
 	padding: 1%;
-	height: auto;
+	height: 100%;
   text-align: center;
   border: 1px solid #d9d9db;
   margin-bottom: 63px;
+  margin-top: 40px;
   margin-left: 0;
   font-size: 12px;
+  position: -webkit-sticky;  // required for Safari
+  position: sticky;
+  top: 10px; // required as well.
 }
 
 table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
@@ -999,6 +1095,12 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 
 .checkout-email-width {
 	width: 50%;
+}
+
+@media only screen and (max-width: 650px) {
+	.checkout-email-width {
+		width: 100%;
+	}
 }
 
 .checkout-header-padding {
@@ -1291,9 +1393,9 @@ ul#payment-methods {
 }
 
 .email-icon {
-  padding: 13px 20px;
+  padding: 14px 20px;
 }
 
 .align-email {
-	vertical-align: -6px;
+	vertical-align: -9px;
 }
