@@ -502,6 +502,12 @@ footer, .push {
   padding: 3px 10px 7px 0px;
 }
 
+@media only screen and (max-width: 767px) {
+	.dropdown-item {
+		color: white;
+	}
+}
+
 .dropdown-item:hover {
 	background-color: #bcbcbc;
 }
