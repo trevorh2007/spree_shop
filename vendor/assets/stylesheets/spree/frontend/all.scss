@@ -972,7 +972,7 @@ a.button {
   text-align: center;
   border: 1px solid #d9d9db;
   margin-bottom: 63px;
-  margin-top: 23px;
+  margin-top: 24px;
   margin-left: 0;
   font-size: 12px;
   position: -webkit-sticky;  // required for Safari
@@ -1447,4 +1447,14 @@ ul#payment-methods {
 
 .accepted-payments {
 	margin-left: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+	.checkout-theme {
+		margin: 0px -50px 0px -50px;
+	}
+}
+
+.order-summary-checkout-margin {
+	margin-top: 20px;
 }
