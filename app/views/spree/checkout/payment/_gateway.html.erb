@@ -1,8 +1,7 @@
 <div class="clearfix">
   <div class="card-img-margin">
-  <%= image_tag 'credit_cards/credit_card.gif', id: 'credit-card-image', class: 'pull-right', width: '170', height: '28' %>
-  <% param_prefix = "payment_source[#{payment_method.id}]" %>
-</div>
+    <% param_prefix = "payment_source[#{payment_method.id}]" %>
+  </div>
   <p class="field">
     <%= label_tag "name_on_card_#{payment_method.id}" do %>
       <%= Spree.t(:name_on_card) %><abbr class="required" title="required">*</abbr>

@@ -9,6 +9,7 @@
         <label>
           <%= radio_button_tag "order[payments_attributes][][payment_method_id]", method.id, method == @order.available_payment_methods.first %>
           <%= Spree.t(method.name, scope: :payment_methods, default: method.name) %>
+            <%= image_tag 'credit_cards/credit_card.gif', id: 'credit-card-image', class: 'pull-right accepted-payments', width: '170', height: '28' %>
         </label>
       </p>
       <% end %>
