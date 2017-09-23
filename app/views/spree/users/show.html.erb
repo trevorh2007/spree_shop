@@ -7,18 +7,18 @@
   <br>
   <div data-hook="account_summary" class="account-summary">
     <div class="row text-white">
-      <div class="col-4"></div>
-      <div class="col-2">
+      <div class="col-md-4 col-sm-1 col-xs-1"></div>
+      <div class="col-sm-4 col-md-2 col-xs-4">
         Contact <%= Spree.t(:email) %>: 
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 col-md-4 col-xs-4">
         <%= @user.email %> (<%= link_to Spree.t(:edit), spree.edit_account_path %>)
       </div>
-      <div class="col-2"></div>
+      <div class="col-md-2 col-sm-1 col-xs-1"></div>
     </div>
     <br>
     <div class="row text-white justify-content-center">
-      <div class="col-3">
+      <div class="col-md-3 col-xs-5 col-sm-5">
         <h4 class="text-center">Billing Address</h4>
         <hr>
           <div><%= @user.bill_address.firstname %> <%= @user.bill_address.lastname %></div>
@@ -26,8 +26,8 @@
           <div><%= @user.bill_address.address2 %></div>
           <div><%= @user.bill_address.city %> <%= @user.bill_address.state.abbr %>, <%= @user.bill_address.zipcode %></div>
       </div>
-      <div class="col-2"></div>
-      <div class="col-3">
+      <div class="col-md-2 col-xs-1 col-sm-1"></div>
+      <div class="col-md-3 col-xs-5 col-sm-5">
         <h4 class="text-center">Shipping Address</h4>
         <hr>
           <div><%= @user.ship_address.firstname %> <%= @user.bill_address.lastname %></div>

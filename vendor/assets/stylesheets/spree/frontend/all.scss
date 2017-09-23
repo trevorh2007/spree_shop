@@ -1412,8 +1412,10 @@ ul#payment-methods {
 	vertical-align: -9px;
 }
 
-.account-my-subscriptions {
-	overflow-x: scroll;
+@media only screen and (max-width: 770px) {
+	.account-my-subscriptions {
+		overflow-x: scroll;
+	}
 }
 
 .account-my-orders {
