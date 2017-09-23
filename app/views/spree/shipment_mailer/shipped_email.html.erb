@@ -8,6 +8,7 @@
         (Your missionary will thank you too!)
       </p>
       <hr>
+      <br>
       <h6 class="text-center">
         Hey <%= @shipment.order.bill_address.firstname %>! Your order #<%= @shipment.order.number %> has been shipped!
       </h6>
@@ -52,8 +53,7 @@
       <p class="text-center">You can check the entire status of your order by clicking on My Account at <%= link_to "mymissionarybox.com", "www.mymissionarybox.com" %>.</p>
       <br>
       <p>
-        If you have questions about your order, please don't hesitate to reach out. You will receive an email confirmation once your order has shipped.
-      </p>
+        If you have questions about your order, please don't hesitate to reach out.</p>
       <p>Thank you,</p>
       <h6 class="signature">My Missionary Box</h6>
     </td>

@@ -2,13 +2,11 @@
   <% subscription = @order.subscriptions.find_by(variant: item.variant) %>
   <% if subscription %>
     <%= subscription.delivery_number %>
-  <% else %>
-    None
   <% end %>
 
   <% if subscription %>
     <%= subscription.frequency.title.capitalize %> Deliveries
   <% else %>
-    Not Subscribed
+    Single Delivery
   <% end %>
 </div>

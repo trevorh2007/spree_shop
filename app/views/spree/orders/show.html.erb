@@ -10,7 +10,7 @@
   <fieldset id="order_summary" data-hook>
     <h3 class="final-order-padding text-center success-background"><%= accurate_title %></h3>
     <% if order_just_completed?(@order) %>
-      <strong class="text-center"><%= Spree.t(:thank_you_for_your_order) %></strong>
+      <p class="text-center thank-you-padding"><strong><%= Spree.t(:thank_you_for_your_order) %></strong></p>
     <% end %>
 
     <div id="order" data-hook>
