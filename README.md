@@ -58,5 +58,8 @@ X Need exact kind of envelope/package used for shipping to get rates
 
 - check out spree_reviews
 
+- Add subscription rake task to heroku tasks     bundle exec rake subscription:process
+- Add notify rake task to heroku tasks           bundle exec rake subscription:prior_notify
+
 X hard code 7 days into subscription edit
 X Add display; none to a @product.id == 1 in cart_checkboxes to prevent delivery interval from showing up
