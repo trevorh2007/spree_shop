@@ -300,7 +300,7 @@ footer, .push {
 
 .sister-text-over-img {
 	position: absolute;
-	top: 200px;
+	top: 35%;
 	left: 0;
 	width: 100%;
 }
@@ -348,6 +348,7 @@ footer, .push {
 
 .text-white li {
 	color: white;
+	text-shadow: 2px 2px #000;
 }
 
 .sister-toggle-style {
@@ -446,6 +447,7 @@ footer, .push {
 	color: white;
   padding: 0px 0 15px 0;
   max-width: 100%;
+  text-shadow: 3px 2px #000;
 }
 
 .limit-min-max2 h3 {
@@ -1404,4 +1406,12 @@ ul#payment-methods {
 
 .align-email {
 	vertical-align: -9px;
+}
+
+.account-my-subscriptions {
+	overflow-x: scroll;
+}
+
+.account-my-orders {
+	overflow-x: scroll;
 }
