@@ -308,12 +308,9 @@ footer, .push {
 @media only screen and (max-width: 900px) { 
   .sister-text-over-img { 
 		position: absolute;
-		top: 10%;
+		top: 25%;
 		left: 0;
 		width: 100%;
-  }
-  .limit-min-max2 h1{
-  	-webkit-text-stroke: 0px white;
   }
 }
 
@@ -443,17 +440,24 @@ footer, .push {
 }
 
 .limit-min-max2 h1 {
-  @include responsive-font(3vw, 20px, 90px);
-	color: white;
+  @include responsive-font(4vw, 20px, 90px);
+	color: #dcb962;
   padding: 0px 0 15px 0;
   max-width: 100%;
   text-shadow: 3px 2px #000;
 }
 
 .limit-min-max2 h3 {
-  @include responsive-font(1.75vw, 15px, 90px);
-	color: white;
+  @include responsive-font(2.5vw, 15px, 90px);
+	color: #dcb962;
   padding: 15px 0 15px 0;
+  max-width: 100%;
+}
+
+.limit-min-max2 li {
+  @include responsive-font(2.5vw, 15px, 90px);
+	color: #dcb962;
+  padding: 5px 0 0 0;
   max-width: 100%;
 }
 
