@@ -261,6 +261,7 @@ footer, .push {
 
 .card-title {
 	text-align: center;
+	min-height: 38px;
 }
 
 .card-text {
@@ -273,7 +274,7 @@ footer, .push {
   .card-text { 
     font-size: 9px;
     margin-top: -.5rem;
-    height: 9rem;
+    height: 6rem;
   } 
 }
 
@@ -1467,4 +1468,8 @@ ul#payment-methods {
 
 .thank-you-padding {
 	padding: 10px;
+}
+
+.row:before, .row:after{
+	display: none;
 }
