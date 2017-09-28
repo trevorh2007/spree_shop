@@ -132,9 +132,8 @@ footer, .push {
     }
 }
 
-@media only screen and (max-width: 650px) { 
+@media only screen and (max-width: 767px) { 
   .nav-item { 
-    margin-right: -230px;
     text-align:right;
   } 
 }
