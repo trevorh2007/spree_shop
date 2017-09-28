@@ -8953,48 +8953,42 @@ the installer will append this file to the app vendored assets here: 'vendor/ass
 }
 
 /* line 7, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
-body {
-  height: auto;
-}
-
-/* line 11, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
-html {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: 'Heebo', sans-serif;
-  font-size: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+  background-color: #333333;
 }
 
-/* line 23, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 17, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 footer, .push {
   height: 200px;
 }
 
-/* line 27, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 21, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .fa-icons-footer {
   letter-spacing: 10px;
   color: black !important;
 }
 
-/* line 32, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 26, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .black-icon {
   color: black;
 }
 
-/* line 36, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 30, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .wrapperxx {
   min-height: 80%;
   height: auto;
   margin: 0 auto -200px;
   min-width: 100%;
+  background-color: #333333;
 }
 
-/* line 43, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 38, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-css {
   border-top: 1px solid white;
   width: 100%;
@@ -9006,35 +9000,35 @@ footer, .push {
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 54, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 49, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-css {
     height: auto;
   }
 }
-/* line 59, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 54, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-container {
   margin: 0 auto;
   width: 90%;
 }
 
-/* line 64, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 59, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .powered-by {
   text-decoration: none;
   color: red;
 }
 
-/* line 69, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 64, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .powered-by:hover {
   text-decoration: none;
   color: red;
 }
 
-/* line 74, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 69, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .header-text a {
   color: black;
 }
 
-/* line 78, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 73, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-links-padding {
   padding: 0px 0px 0px 30px;
   font-size: 15px;
@@ -9042,45 +9036,45 @@ footer, .push {
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 85, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 80, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-links-padding {
     padding: 0px 0px 0px 10px;
     margin: 0 auto;
   }
 }
-/* line 91, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 86, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-inside-links {
   list-style: none;
   margin-left: 5%;
 }
 
-/* line 96, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 91, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .cart-or {
   font-size: 20px;
   font-weight: 500;
 }
 
-/* line 101, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 96, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .steps-data {
   padding: 0px 35px 0px 35px;
 }
 
-/* line 105, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 100, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .final-order-padding {
   padding: 5px 0px 5px 0px;
 }
 
-/* line 109, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 104, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .header-background {
   background: black;
 }
 
-/* line 113, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 108, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .homepage-background {
   background-color: black;
 }
 
-/* line 117, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 112, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .main-img {
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url("https://s3.amazonaws.com/missionaryboxbucket/header.jpg");
@@ -9091,7 +9085,7 @@ footer, .push {
 }
 
 @media only screen and (min-width: 650px) {
-  /* line 127, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 122, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .main-img {
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("https://s3.amazonaws.com/missionaryboxbucket/header.jpg");
@@ -9101,37 +9095,37 @@ footer, .push {
     margin-top: 0;
   }
 
-  /* line 135, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 130, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .main-img img {
     opacity: .2;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 141, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 136, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .nav-item {
     text-align: right;
   }
 }
 @media only screen and (max-width: 650px) {
-  /* line 147, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 142, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-block {
     padding: 0.5rem;
   }
 }
-/* line 152, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 147, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-block {
   background-color: #333333;
   color: white;
 }
 
-/* line 157, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 152, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .text-outer {
   width: 100%;
   text-align: center;
   margin: auto 0;
 }
 
-/* line 163, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 158, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .btn-style {
   border: none;
   border-radius: 20px;
@@ -9140,17 +9134,17 @@ footer, .push {
   font-size: 11px;
 }
 
-/* line 171, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 166, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .button-margin {
   margin-left: 802px;
 }
 
-/* line 175, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 170, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .header-line-space {
   letter-spacing: 2px;
 }
 
-/* line 179, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 174, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .fa {
   color: white;
   padding-right: 5px;
@@ -9159,7 +9153,7 @@ footer, .push {
 /*.card-pic-size {
 	height: 13rem;
 }*/
-/* line 188, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 183, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .row {
   margin-bottom: 0px;
 }
@@ -9169,19 +9163,19 @@ footer, .push {
     height: 7rem;
   } 
 }*/
-/* line 198, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 193, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-padding {
   margin-bottom: 15px;
 }
 
-/* line 202, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 197, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-container {
   margin-top: 25px;
   margin-bottom: 25px;
   padding: 25px;
 }
 
-/* line 208, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 203, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .nav-container {
   width: 95%;
   margin: 0 auto;
@@ -9189,55 +9183,55 @@ footer, .push {
   position: relative;
 }
 
-/* line 215, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 210, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-btn-styles {
   border-radius: 20px;
   border: none;
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 221, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 216, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .product-btn-styles {
     font-size: 10px;
     float: right;
   }
 }
 @media screen and (min-width: 540px) {
-  /* line 228, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 223, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-block {
     min-height: 15rem;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 234, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 229, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-block {
     min-height: 17rem;
   }
 }
 @media screen and (min-width: 1608px) {
-  /* line 240, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 235, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-block {
     min-height: 15rem;
   }
 }
 @media only screen and (max-width: 650px) {
-  /* line 246, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 241, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-title {
     font-size: 14px;
   }
 }
-/* line 251, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 246, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-title a {
   color: white;
 }
 
-/* line 255, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 250, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-title {
   text-align: center;
   min-height: 38px;
 }
 
-/* line 260, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 255, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-text {
   padding: 0px;
   height: 7rem;
@@ -9245,7 +9239,7 @@ footer, .push {
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 267, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 262, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .card-text {
     font-size: 10px;
     margin-top: -.5rem;
@@ -9253,29 +9247,29 @@ footer, .push {
   }
 }
 @media only screen and (max-width: 650px) {
-  /* line 275, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 270, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .col-6 {
     padding-right: 2px;
     padding-left: 2px;
   }
 }
-/* line 281, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 276, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-alignment-style {
   margin: auto 0;
 }
 
-/* line 285, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 280, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .img-size-sister {
   width: 80%;
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 290, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 285, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .img-size-sister {
     width: 100%;
   }
 }
-/* line 295, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 290, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-text-over-img {
   position: absolute;
   top: 35%;
@@ -9284,7 +9278,7 @@ footer, .push {
 }
 
 @media only screen and (max-width: 900px) {
-  /* line 303, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 298, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .sister-text-over-img {
     position: absolute;
     top: 25%;
@@ -9292,12 +9286,12 @@ footer, .push {
     width: 100%;
   }
 }
-/* line 311, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 306, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-btn-styles {
   text-align: center;
 }
 
-/* line 315, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 310, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-btn-styles2 {
   border-radius: 20px;
   margin-bottom: 50px;
@@ -9306,14 +9300,14 @@ footer, .push {
   white-space: normal;
 }
 
-/* line 323, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 318, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-btn-styles2 h2 {
   color: white;
   font-size: 20px;
   margin: 1%;
 }
 
-/* line 329, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 324, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-card-background {
   background-color: black;
   border: none;
@@ -9321,102 +9315,102 @@ footer, .push {
   padding-bottom: 4rem;
 }
 
-/* line 336, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 331, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .text-white h1, h5 {
   color: white;
 }
 
-/* line 340, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 335, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .text-white li {
   color: white;
   text-shadow: 2px 2px #000;
 }
 
-/* line 345, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 340, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-toggle-style {
   text-align: center;
 }
 
-/* line 349, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 344, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .login-page-styles {
   background-color: #333333;
   padding: 1.5rem 0px 11rem 0px;
 }
 
-/* line 354, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 349, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .sister-container {
   text-align: center;
   margin-bottom: 50px;
 }
 
-/* line 359, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 354, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .nav-link {
   display: inline;
 }
 
-/* line 363, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 358, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #app {
   font-size: 1rem;
   letter-spacing: 1px;
   width: 100%;
 }
 
-/* line 369, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 364, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .nav-item {
   padding: 0px 0px 0px 20px;
 }
 
-/* line 373, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 368, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .social-navbar {
   word-spacing: 3rem;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 378, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 373, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .social-navbar {
     display: none;
   }
 }
 /* test */
-/* line 409, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 404, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-min-max {
   font-size: 1.4vw;
   color: white;
   line-height: 4vh;
 }
 @media (max-width: 857.1428571429px) {
-  /* line 409, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 404, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-min-max {
     font-size: 12px;
   }
 }
 @media (min-width: 1285.7142857143px) {
-  /* line 409, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 404, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-min-max {
     font-size: 18px;
   }
 }
 
-/* line 415, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 410, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-min-max a {
   font-size: 0.9vw;
   color: white;
   line-height: 4vh;
 }
 @media (max-width: 1111.1111111111px) {
-  /* line 415, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 410, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-min-max a {
     font-size: 10px;
   }
 }
 @media (min-width: 1666.6666666667px) {
-  /* line 415, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 410, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .footer-min-max a {
     font-size: 15px;
   }
 }
 
-/* line 421, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 416, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max h1 {
   font-size: 3vw;
   color: white;
@@ -9425,19 +9419,19 @@ footer, .push {
   max-width: 100%;
 }
 @media (max-width: 666.6666666667px) {
-  /* line 421, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 416, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max h1 {
     font-size: 20px;
   }
 }
 @media (min-width: 1666.6666666667px) {
-  /* line 421, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 416, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max h1 {
     font-size: 50px;
   }
 }
 
-/* line 429, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 424, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max h3 {
   font-size: 1.75vw;
   color: white;
@@ -9445,19 +9439,19 @@ footer, .push {
   max-width: 100%;
 }
 @media (max-width: 1142.8571428571px) {
-  /* line 429, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 424, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max h3 {
     font-size: 20px;
   }
 }
 @media (min-width: 1428.5714285714px) {
-  /* line 429, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 424, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max h3 {
     font-size: 25px;
   }
 }
 
-/* line 436, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 431, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max2 h1 {
   font-size: 4vw;
   color: #dcb962;
@@ -9466,19 +9460,19 @@ footer, .push {
   text-shadow: 3px 2px #000;
 }
 @media (max-width: 500px) {
-  /* line 436, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 431, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 h1 {
     font-size: 20px;
   }
 }
 @media (min-width: 2250px) {
-  /* line 436, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 431, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 h1 {
     font-size: 90px;
   }
 }
 
-/* line 444, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 439, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max2 h3 {
   font-size: 2.5vw;
   color: #dcb962;
@@ -9486,19 +9480,19 @@ footer, .push {
   max-width: 100%;
 }
 @media (max-width: 600px) {
-  /* line 444, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 439, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 h3 {
     font-size: 15px;
   }
 }
 @media (min-width: 3600px) {
-  /* line 444, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 439, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 h3 {
     font-size: 90px;
   }
 }
 
-/* line 451, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 446, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max2 li {
   font-size: 2.5vw;
   color: #dcb962;
@@ -9506,69 +9500,69 @@ footer, .push {
   max-width: 100%;
 }
 @media (max-width: 600px) {
-  /* line 451, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 446, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 li {
     font-size: 15px;
   }
 }
 @media (min-width: 3600px) {
-  /* line 451, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 446, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .limit-min-max2 li {
     font-size: 90px;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 459, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 454, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .sister-btn-styles2 h2 {
     font-size: 3.5vw;
   }
 }
 @media only screen and (max-width: 650px) and (max-width: 342.8571428571px) {
-  /* line 459, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 454, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .sister-btn-styles2 h2 {
     font-size: 12px;
   }
 }
 @media only screen and (max-width: 650px) and (min-width: 571.4285714286px) {
-  /* line 459, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 454, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .sister-btn-styles2 h2 {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 462, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 457, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .sister-btn-styles2 {
     width: 95%;
   }
 }
 @media only screen and (min-width: 650px) {
-  /* line 468, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 463, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .product-description-size {
     font-size: 20px;
     line-height: 25px;
     color: white;
   }
 }
-/* line 475, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 470, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-description-size {
   color: white;
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 480, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 475, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   #product-description .product-title {
     font-size: 15px;
     color: white;
   }
 }
-/* line 486, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 481, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #product-description .product-title {
   color: white;
 }
 
-/* line 490, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 485, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .limit-min-max {
   width: 100%;
   margin-top: 4%;
@@ -9578,50 +9572,50 @@ footer, .push {
 }
 
 /* test */
-/* line 500, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 495, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-item {
   text-align: right;
   padding: 3px 10px 7px 0px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 506, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 501, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .dropdown-item {
     color: white;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 512, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 507, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .nav-item-padding {
     padding-top: 8px;
   }
 }
-/* line 517, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 512, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-item:hover {
   background-color: #bcbcbc;
 }
 
-/* line 521, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 516, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-menu-right {
   right: 25px;
 }
 
-/* line 525, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 520, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-menu {
   background-color: #d9d9d9;
 }
 
-/* line 529, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 524, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-divider {
   background-color: #bcbcbc;
 }
 
-/* line 533, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 528, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dropdown-toggle::after {
   color: white;
 }
 
-/* line 537, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 532, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .login-card-style {
   background-color: black;
   padding: 20px 25px 20px 25px;
@@ -9629,88 +9623,88 @@ footer, .push {
   margin: auto;
 }
 
-/* line 544, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 539, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .check-box-size {
   margin-bottom: 8px;
 }
 
-/* line 548, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 543, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .login-helpers {
   font-size: 1.2rem;
   padding-bottom: 15px;
   color: white;
 }
 
-/* line 554, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 549, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .login-helpers a {
   text-decoration: none;
   color: white;
 }
 
-/* line 559, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 554, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 label {
   color: white;
 }
 
-/* line 563, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 558, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-form-padding {
   padding: 4rem 5px 5rem 5px;
   background-color: #333333;
 }
 
-/* line 568, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 563, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .checkout-forms-center {
   text-align: center;
 }
 
-/* line 572, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 567, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .form-buttons {
   margin: 30px 0px 0px 15px;
 }
 
-/* line 576, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 571, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-toggler-right {
   right: -3rem;
   top: 2rem;
 }
 
-/* line 581, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 576, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-toggler {
   margin-right: 55px;
   background-color: #333333;
 }
 
-/* line 586, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 581, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-toggleable-md {
   z-index: 1000;
   position: static;
 }
 
-/* line 591, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 586, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-toggleable-sm {
   position: static;
 }
 
-/* line 595, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 590, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar {
   position: static;
   z-index: 1000;
   margin-bottom: 0;
 }
 
-/* line 601, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 596, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .logo-margin-auto img {
   display: block;
   margin: 0 auto;
   max-width: 85px;
 }
 
-/* line 607, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 602, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 ul#products li .product-image img {
   width: 75%;
 }
 
-/* line 611, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 606, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .footer-margin {
   margin-top: 5px;
   margin: auto;
@@ -9718,59 +9712,59 @@ ul#products li .product-image img {
   color: white;
 }
 
-/* line 618, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 613, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .products-show-margin {
   background-color: #333333;
   padding-bottom: 3rem;
 }
 
-/* line 623, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 618, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .captcha-width {
   width: 20%;
 }
 
-/* line 627, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 622, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .email-to-friend a {
   color: purple;
 }
 
-/* line 631, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 626, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .email-to-friend2 {
   color: white;
   margin-top: 40px;
 }
 
-/* line 636, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 631, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .email-to-friend {
   display: none;
 }
 
-/* line 640, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 635, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-img-size {
   width: 100%;
 }
 
-/* line 644, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 639, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-section-title {
   color: white;
 }
 
-/* line 648, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 643, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .thumbnail {
   padding: 0px;
 }
 
-/* line 651, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 646, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #product-thumbnails li {
   border: none;
 }
 
-/* line 655, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 650, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #product-images #product-thumbnails li {
   background-color: #333333;
 }
 
-/* line 659, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 654, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #product-images #main-image img {
   max-width: auto;
   min-height: auto;
@@ -9778,47 +9772,47 @@ ul#products li .product-image img {
   border-radius: 3px;
 }
 
-/* line 666, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 661, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #product-thumbnails li img {
   height: 3.5rem;
 }
 
-/* line 670, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 665, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 ul#products li .product-image {
   padding: 0px;
   border: none;
   margin-top: 15px;
 }
 
-/* line 676, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 671, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 ul#products li .product-image img {
   width: 100%;
 }
 
-/* line 680, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 675, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #clear_cart_link {
   padding-top: 25px;
 }
 
-/* line 684, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 679, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 a.button {
   line-height: 13px;
   margin-top: none;
   margin-left: 10px;
 }
 
-/* line 690, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 685, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .cart-mobile-config {
   width: 100%;
 }
 
-/* line 694, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 689, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .cart-background {
   background-color: #333333;
   padding: 30px 0px 30px 0px;
 }
 
-/* line 699, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 694, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #checkout {
   background-color: #333333;
   padding: 40px;
@@ -9827,13 +9821,13 @@ a.button {
   width: 100%;
 }
 
-/* line 707, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 702, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #checkout h1, h2, h3, h4, h5, h6, b, strong, td {
   color: white;
 }
 
 @media only screen and (min-width: 650px) {
-  /* line 712, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 707, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps {
     list-style: decimal inside;
     overflow: auto;
@@ -9843,7 +9837,7 @@ a.button {
     padding: 0;
     width: 65.0258%;
   }
-  /* line 721, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 716, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li {
     float: left;
     margin-right: 20px;
@@ -9852,42 +9846,42 @@ a.button {
     padding: 5px 20px;
     color: white;
   }
-  /* line 730, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 725, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.current-first, .progress-steps li.current {
     background-color: #337ab7;
     color: white;
   }
-  /* line 735, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 730, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first, .progress-steps li.completed {
     background-color: green;
     color: white;
   }
-  /* line 739, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 734, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first a, .progress-steps li.completed a {
     color: white;
   }
-  /* line 743, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 738, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover, .progress-steps li.completed:hover {
     background-color: #00ff00;
     color: #111;
   }
-  /* line 747, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 742, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a, .progress-steps li.completed:hover a {
     color: white;
   }
-  /* line 750, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 745, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a:hover, .progress-steps li.completed:hover a:hover {
     color: #111;
     text-decoration: none;
   }
 }
 @media only screen and (max-width: 650px) {
-  /* line 762, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 757, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps {
     background-color: #444444;
     font-size: 12px;
   }
-  /* line 766, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 761, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li {
     float: left;
     margin-right: 20px;
@@ -9896,43 +9890,43 @@ a.button {
     padding: 5px 20px;
     color: white;
   }
-  /* line 775, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 770, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.current-first, .progress-steps li.current {
     background-color: #337ab7;
     color: white;
   }
-  /* line 780, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 775, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first, .progress-steps li.completed {
     background-color: green;
     color: white;
   }
-  /* line 784, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 779, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first a, .progress-steps li.completed a {
     color: white;
   }
-  /* line 788, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 783, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover, .progress-steps li.completed:hover {
     background-color: #00ff00;
     color: #111;
   }
-  /* line 792, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 787, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a, .progress-steps li.completed:hover a {
     color: white;
   }
-  /* line 795, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 790, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a:hover, .progress-steps li.completed:hover a:hover {
     color: #111;
     text-decoration: none;
   }
 }
 @media only screen and (max-width: 450px) {
-  /* line 807, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 802, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps {
     background-color: #444444;
     font-size: 12px;
     transform: translate(20px, -15px);
   }
-  /* line 812, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 807, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li {
     float: left;
     font-weight: bold;
@@ -9940,41 +9934,41 @@ a.button {
     padding: 2px 55px;
     color: white;
   }
-  /* line 820, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 815, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.current-first, .progress-steps li.current {
     background-color: #337ab7;
     color: white;
   }
-  /* line 825, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 820, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first, .progress-steps li.completed {
     background-color: green;
     color: white;
   }
-  /* line 829, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 824, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first a, .progress-steps li.completed a {
     color: white;
   }
-  /* line 833, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 828, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover, .progress-steps li.completed:hover {
     background-color: #00ff00;
     color: #111;
   }
-  /* line 837, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 832, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a, .progress-steps li.completed:hover a {
     color: white;
   }
-  /* line 840, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 835, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .progress-steps li.completed-first:hover a:hover, .progress-steps li.completed:hover a:hover {
     color: #111;
     text-decoration: none;
   }
 }
-/* line 851, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 846, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .field.checkbox {
   background-color: #333333;
 }
 
-/* line 855, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 850, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #checkout-summary {
   padding: 1%;
   height: 100%;
@@ -9989,64 +9983,64 @@ a.button {
   top: 10px;
 }
 
-/* line 869, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 864, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
   background-color: #222222;
 }
 
-/* line 873, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 868, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .grey-background {
   background-color: #333333;
 }
 
-/* line 877, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 872, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .dark-grey-background {
   background-color: #222222;
 }
 
-/* line 881, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 876, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .light-grey-background {
   background-color: #444444;
 }
 
-/* line 885, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 880, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .fixme {
   position: fixed;
   top: 0;
 }
 
-/* line 890, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 885, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #shipping_method .stock-shipping-method-title {
   background-color: #222222;
 }
 
-/* line 894, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 889, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #order_summary {
   margin: 30px 0px 30px 0px;
 }
 
-/* line 898, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 893, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #order_summary h1, h2, h3, h4, h5, h6, b, p, td, span {
   color: white;
 }
 
-/* line 902, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 897, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #order_details div:last-child, #order_summary div:last-child {
   color: white;
 }
 
-/* line 906, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 901, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .order-summary-table-row {
   border-left: 1px white solid;
 }
 
-/* line 910, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 905, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .login-card-margin {
   padding: 25px 0px 50px 0px;
 }
 
 @media (min-width: 1500px) {
-  /* line 915, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 910, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .col-xxl {
     -webkit-box-flex: 0;
     max-width: 16.6667%;
@@ -10054,60 +10048,60 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
   }
 }
 @media (min-width: 1500px) {
-  /* line 923, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 918, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .justify-content-xxl-center {
     -webkit-box-pack: center;
     justify-content: center;
   }
 }
-/* line 929, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 924, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .hidden-sub-field {
   display: none;
 }
 
-/* line 933, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 928, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .steps-data {
   padding: 0px 10px 0px 10px;
 }
 
-/* line 937, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 932, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .registration-cart {
   color: white;
   margin-top: 15px;
   background-color: red;
 }
 
-/* line 943, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 938, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .float-right {
   float: right;
 }
 
-/* line 947, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 942, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #inside-product-cart-form.row {
   text-align: right;
 }
 
-/* line 951, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 946, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .panel-body {
   padding: 0px;
 }
 
-/* line 955, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 950, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .panel-title {
   color: white;
 }
 
-/* line 959, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 954, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .panel-default > .panel-heading {
   background-color: #333333;
 }
 
-/* line 963, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 958, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
   outline: none;
 }
 
-/* line 967, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 962, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .well {
   padding: 1%;
   background-color: #555555;
@@ -10115,55 +10109,55 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
   border: none;
 }
 
-/* line 974, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 969, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .table > thead:first-child > tr:first-child > th {
   color: white;
 }
 
-/* line 978, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 973, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .table > tbody > tr.warning > td {
   background-color: #00ADEE;
 }
 
-/* line 982, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 977, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .coupon-margin {
   margin-top: 4.5%;
 }
 
-/* line 986, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 981, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .red {
   color: red;
 }
 
-/* line 990, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 985, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .table > tbody > tr > td {
   vertical-align: middle;
 }
 
-/* line 994, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 989, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .checkout-email-width {
   width: 50%;
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 999, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 994, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .checkout-email-width {
     width: 100%;
   }
 }
-/* line 1004, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 999, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .checkout-header-padding {
   margin-bottom: 4%;
 }
 
-/* line 1008, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1003, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #billing, #shipping, #shipping_method,
 #payment, #order_details, #order_summary {
   margin-top: 10px;
   border: 1px solid white;
   padding: 10px;
 }
-/* line 1014, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1009, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #billing legend, #shipping legend, #shipping_method legend,
 #payment legend, #order_details legend, #order_summary legend {
   text-transform: uppercase;
@@ -10175,77 +10169,77 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
   border-bottom: none;
 }
 
-/* line 1026, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1021, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #billing input[type="text"], #billing input[type="email"],
 #billing input[type="tel"], #billing input[type="number"],
 #billing select, #billing textarea {
   width: 100%;
 }
 
-/* line 1033, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1028, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .inner {
   font-size: 12px;
 }
 
-/* line 1037, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1032, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 abbr[title] {
   color: red;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 1043, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1038, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .font-size-12 {
   font-size: 12px;
 }
 
-/* line 1047, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1042, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .field.checkbox {
   padding-left: 25px;
 }
 
-/* line 1051, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1046, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .checkbox {
   margin-top: -30px;
 }
 
-/* line 1055, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1050, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .checkbox label {
   padding-left: 0px;
   font-size: 12px;
 }
 
-/* line 1060, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1055, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .vertical-align {
   transform: translateY(50%);
 }
 
-/* line 1064, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1059, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 h1, .h1, h2, .h2, h3, .h3 {
   margin: 0;
 }
 
-/* line 1068, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1063, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #shipping_method .shipping-methods .shipping-method label .rate-cost {
   color: #00ADEE;
 }
 
-/* line 1072, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1067, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #shipping_method .stock-shipping-method-title {
   padding: 10px 0px 10px 0px;
 }
 
-/* line 1076, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1071, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .shipping-methods {
   list-style: none;
 }
 
-/* line 1080, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1075, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .stock-contents {
   margin: 0;
 }
 
-/* line 1084, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1079, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #shipping_method .stock-location {
   text-align: center;
   text-transform: uppercase;
@@ -10256,58 +10250,58 @@ h1, .h1, h2, .h2, h3, .h3 {
   padding: 10px;
 }
 
-/* line 1094, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1089, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 ul#payment-methods {
   list-style: none;
 }
 
-/* line 1098, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1093, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .field {
   font-size: 12px;
 }
 
-/* line 1102, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1097, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-img-margin {
   margin-bottom: 30px;
 }
 
-/* line 1106, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1101, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .card-img-top img {
   border-top-right-radius: calc(.25rem - 1px);
   border-top-left-radius: calc(.25rem - 1px);
 }
 
-/* line 1111, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1106, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .vcard {
   font-size: 12px;
 }
 
-/* line 1115, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1110, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .blue-text {
   color: #5bc0de !important;
 }
 
-/* line 1119, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1114, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .delivery {
   font-size: 12px;
 }
 
-/* line 1123, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1118, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .payment-info {
   font-size: 12px;
 }
 
-/* line 1127, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1122, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .success-background {
   background-color: #5cb85c;
 }
 
-/* line 1131, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1126, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .my-account-padding {
   padding: 10px;
 }
 
-/* line 1135, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1130, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .howimage1, .howimage2, .howimage3 {
   width: 100%;
   background-repeat: no-repeat;
@@ -10319,7 +10313,7 @@ ul#payment-methods {
   height: auto;
 }
 
-/* line 1146, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1141, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .step-by-step-area .headline {
   font-size: 30px;
   letter-spacing: 1px;
@@ -10330,17 +10324,17 @@ ul#payment-methods {
   padding: 10px 0 40px 0;
 }
 
-/* line 1156, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1151, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .stepsubheader {
   color: #dcb962;
 }
 
-/* line 1160, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1155, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .step-by-step-area {
   margin: 30px 0px 50px 0px;
 }
 
-/* line 1164, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1159, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .step-by-step-area h2 {
   font-size: 38px;
   letter-spacing: 1px;
@@ -10349,7 +10343,7 @@ ul#payment-methods {
   margin-top: 35px;
 }
 
-/* line 1172, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1167, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .step-by-step-area p {
   margin-top: 15px;
   font-size: .9em;
@@ -10357,17 +10351,17 @@ ul#payment-methods {
   text-transform: uppercase;
 }
 
-/* line 1179, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1174, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .stepheader {
   color: #fff;
 }
 
-/* line 1183, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1178, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .steps-hr-width {
   width: 75%;
 }
 
-/* line 1187, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1182, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .faq-content .faq-intro h1 {
   font-size: 30px;
   letter-spacing: 1px;
@@ -10377,7 +10371,7 @@ ul#payment-methods {
   padding: 35px 0 40px 0;
 }
 
-/* line 1196, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1191, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .faq-content h3 {
   color: #dcb962;
   font-size: 22px;
@@ -10385,12 +10379,12 @@ ul#payment-methods {
   margin: 35px 0 20px 0;
 }
 
-/* line 1203, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1198, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .faq-content {
   padding-bottom: 35px;
 }
 
-/* line 1207, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1202, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .terms-style {
   background-color: #444444;
   padding-left: 40px;
@@ -10401,32 +10395,32 @@ ul#payment-methods {
   margin-top: 25px;
 }
 
-/* line 1217, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1212, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .gritter-item.gritter-css3 {
   background-color: #0275d8;
 }
 
-/* line 1221, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1216, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .gritter-title {
   text-shadow: none;
 }
 
-/* line 1225, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1220, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .additional-info {
   background-color: #444444;
 }
 
-/* line 1229, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1224, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .line-items {
   background-color: #444444;
 }
 
-/* line 1233, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1228, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .select2 {
   color: black;
 }
 
-/* line 1237, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1232, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .alert-info {
   background-color: #333333;
   color: white;
@@ -10434,55 +10428,55 @@ ul#payment-methods {
   border: none;
 }
 
-/* line 1244, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1239, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .font-size-11 {
   font-size: 11px;
 }
 
-/* line 1248, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1243, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .subscription-action-links {
   text-align: center;
 }
 
-/* line 1252, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1247, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .order-payment-state {
   text-align: center;
 }
 
-/* line 1256, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1251, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .order-shipment-state {
   text-align: center;
 }
 
-/* line 1260, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1255, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .red-danger-background {
   background-color: red;
   padding: 10px;
 }
 
-/* line 1266, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1261, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-collapse.in {
   overflow-y: visible;
 }
 
-/* line 1270, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1265, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .navbar-collapse {
   overflow: visible;
   box-shadow: none;
   border-top: none;
 }
 
-/* line 1276, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1271, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .capitalize-sub-frequency {
   text-transform: capitalize;
 }
 
-/* line 1280, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1275, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .display-none {
   display: none;
 }
 
-/* line 1284, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1279, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .email-icon-box {
   border-color: transparent;
   padding: 5px 10px;
@@ -10495,91 +10489,91 @@ ul#payment-methods {
   border-top-left-radius: 10px;
 }
 
-/* line 1296, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1291, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .email-icon {
   padding: 14px 20px;
 }
 
-/* line 1300, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1295, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .align-email {
   vertical-align: -9px;
 }
 
 @media only screen and (max-width: 770px) {
-  /* line 1305, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 1300, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .account-my-subscriptions {
     overflow-x: scroll;
   }
 }
-/* line 1310, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1305, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .account-my-orders {
   overflow-x: scroll;
 }
 
-/* line 1314, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1309, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-index-link {
   color: white;
 }
 
-/* line 1318, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1313, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-index-link:hover {
   color: white;
 }
 
-/* line 1322, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1317, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .text-blue {
   color: #337ab7;
 }
 
-/* line 1326, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1321, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .product-index-padding {
   padding-top: 10px;
 }
 
-/* line 1330, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1325, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .quantity-width {
   width: 25%;
   transform: translateX(300%);
 }
 
-/* line 1335, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1330, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 #payment-methods {
   padding: 10px;
 }
 
-/* line 1339, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1334, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .accepted-payments {
   margin-left: 20px;
 }
 
 @media only screen and (max-width: 450px) {
-  /* line 1344, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+  /* line 1339, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
   .checkout-theme {
     margin: 0px -50px 0px -50px;
   }
 }
-/* line 1349, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1344, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .order-summary-checkout-margin {
   margin-top: 20px;
 }
 
-/* line 1353, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1348, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .thank-you-padding {
   padding: 10px;
 }
 
-/* line 1357, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1352, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .row:before, .row:after {
   display: none;
 }
 
-/* line 1361, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1356, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .row.small-gutters {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-/* line 1366, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
+/* line 1361, /Users/trevorhoward/GeekfulThinking/spree_subs/vendor/assets/stylesheets/spree/frontend/all.scss */
 .row.small-gutters > [class^="col-"],
 .row.small-gutters > [class*=" col-"] {
   padding-right: 10px;

@@ -9,7 +9,6 @@
 //= require jquery-ui
 //= require spree/frontend
 //= require gritter
-//= require turbolinks
 //= require bootstrap-sprockets
 
 //= require_tree .
