@@ -18,19 +18,19 @@
       <%= logo %>
     </div>
 
-    <div class="col-5">
+    <div class="col-5 pull-right">
         <div id="navbarNavDropdown" class="navbar-collapse collapse">
           <ul class="navbar-nav ml-auto float-right">
           <% if !signed_in? %>
-            <li class="nav-item">
+            <li class="nav-item pull-right">
                 <%= link_fa_to 'user ', ' LOGIN ', login_path %>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-item-padding">
                 <%= link_fa_to 'plus ', ' SIGN UP', signup_path %>
             </li>
           <% end %>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown nav-item-padding">
               <span class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <%= link_fa_to 'bars', ' MENU & PRODUCTS', '' %>
               </span>
