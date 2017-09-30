@@ -15,6 +15,18 @@ html, body {
   font-size: 100%;
 }
 
+@media screen and (max-width: 768px) {
+	.body {
+			 -webkit-overflow-scrolling: touch;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.html {
+			 -webkit-overflow-scrolling: touch;
+	}
+}
+
 footer, .push {
 	height: 200px;
 }
@@ -1426,4 +1438,8 @@ td.cart-item-quantity {
 	.coupon-margin {
 		margin-bottom: 60px;
 	}
+}
+
+.shipping-to {
+	margin-right: 15px;
 }
