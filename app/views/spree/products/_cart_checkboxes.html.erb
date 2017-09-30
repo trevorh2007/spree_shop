@@ -22,10 +22,10 @@
       <%= number_field_tag :quantity, 1, class: 'title form-control quantity-width', min: 1 %>
     </span>
     <br>
-    <span class='input-group-btn'>
+    <div class='input-group-btn'>
       <%= button_tag class: 'btn btn-lg btn-primary', id: 'subscribe-button', type: :submit, name: :subscribe, value: '1' do %>
         <%= Spree.t(:subscribe_now) %>
       <% end %>
-    </span>
+    </div>
   </div>
 <% end %>
