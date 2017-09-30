@@ -12,9 +12,11 @@
           <%= form_for resource, as: :spree_user, url: spree.registration_path(resource) do |f| %>
             <div data-hook="signup_inside_form">
               <%= render partial: 'spree/shared/user_form', locals: { f: f } %>
+              <br>
               <p><%= f.submit Spree.t(:create), class: 'btn btn-primary btn-block' %></p>
             </div>
           <% end %>
+          <br>
           <div class="text-center" style="font-size: 14px; color: white; margin-bottom: 10px">Already have an account?</div>
           <div class="text-center login-helpers">
             <%= link_to Spree.t(:login_as_existing), spree.login_path %>

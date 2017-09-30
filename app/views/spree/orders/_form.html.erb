@@ -1,10 +1,10 @@
 <%= render partial: 'spree/shared/error_messages', locals: { target: @order } %>
 <table class="table" id="cart-detail" data-hook>
   <thead>
-    <tr class="dark-grey-background" data-hook="cart_items_headers">
+    <tr class="dark-grey-background cart-min-max" data-hook="cart_items_headers">
       <th class="cart-item-description-header text-center" colspan="2"><%= Spree.t(:item) %></th>
       <th class="cart-item-price-header"><%= Spree.t(:price) %>/mo</th>
-      <th class="cart-item-quantity-header text-center" colspan="1"><%= Spree.t(:qty) %></th>
+      <th class="cart-item-quantity-header text-center" colspan="1" style="width:100px"><%= Spree.t(:qty) %></th>
       <th class="cart-item-total-header text-center"><%= Spree.t(:total) %></th>
       <th class="cart-item-delete-header"></th>
     </tr>
