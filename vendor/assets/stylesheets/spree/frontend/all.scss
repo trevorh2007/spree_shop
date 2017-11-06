@@ -724,7 +724,7 @@ a.button {
 
 #checkout {
 	background-color: #333333;
-	padding: 40px;
+	padding: 40px 0 40px 0;
 	color: white;
 	margin: auto;
 	width: 100%;
@@ -738,11 +738,10 @@ a.button {
 	.progress-steps {
 	  list-style: decimal inside;
 	  overflow: auto;
-	  background-color: #444444;
 	  font-size: 12px;
 	  transform: translateY(50%);
 	  padding: 0;
-	  width: 65.0258%;
+	  width: 100%;
 
 	  li {
 	    float: left;
@@ -919,6 +918,10 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 
 #order_summary {
 	margin: 30px 0px 30px 0px;
+}
+
+#order_details {
+  background-color: #333;
 }
 
 #order_summary h1, h2, h3, h4, h5, h6, b, p, td, span {
