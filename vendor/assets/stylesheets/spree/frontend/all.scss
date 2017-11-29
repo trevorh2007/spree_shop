@@ -1446,3 +1446,32 @@ td.cart-item-quantity {
 .shipping-to {
 	margin-right: 15px;
 }
+
+.variant-description {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+#product-variants {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  align-self: center;
+}
+
+.product-section-title {
+  border-bottom: 1px solid white;
+  align-self: flex-end;
+  width: auto;
+  min-width: 10%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .product-section-title {
+    min-width: 30%;
+  }
+  .variant-description {
+    font-size: initial;
+  }
+}
