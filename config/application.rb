@@ -18,6 +18,9 @@ Bundler.require(*Rails.groups)
 
 module SpreeSubs
   class Application < Rails::Application
+
+    config.time_zone = 'Mountain Time (US & Canada)'
+    config.active_record.default_timezone = :local
     
     config.to_prepare do
       # Load application's model / class decorators

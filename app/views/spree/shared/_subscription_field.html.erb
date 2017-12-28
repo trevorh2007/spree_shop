@@ -1,11 +1,12 @@
 <div class="text-center text-blue dark-grey-background">
   <% subscription = @order.subscriptions.find_by(variant: item.variant) %>
   <% if subscription %>
-    <%= subscription.delivery_number %>
-  <% end %>
-
-  <% if subscription %>
-    <%= subscription.frequency.title.capitalize %> Deliveries
+    <% if subscription.number_of_deliveries_left + 1 < subscription.delivery_number %>
+      <%= subscription.number_of_deliveries_left %>
+      <%= Spree.t(:deliveries_left) %>
+    <% else %>
+      <%= subscription.delivery_number %> Monthly Deliveries
+    <% end %>
   <% else %>
     Single Delivery
   <% end %>
