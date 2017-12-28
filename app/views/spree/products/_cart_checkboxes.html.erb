@@ -7,13 +7,13 @@
     </span>
     <span>
       <% if @product.id == 1 %>
-        <%= number_field :subscription, :delivery_number, class: "form-control", value: 1 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", value: 1 %>
       <% elsif @product.id == 2 %>
-        <%= number_field :subscription, :delivery_number, class: "form-control", value: 3 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", value: 3 %>
       <% elsif @product.id == 3 %>
-        <%= number_field :subscription, :delivery_number, class: "form-control", value: 6 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", value: 6 %>
       <% else @product.id == 4 %>
-        <%= number_field :subscription, :delivery_number, class: "form-control", value: 1 %>
+        <%= hidden_field :subscription, :delivery_number, class: "form-control", value: 1 %>
       <% end %>
     </span>
     <span>
