@@ -6,13 +6,9 @@
         <ul class="list-group">
           <% @product.variants_and_option_values(current_currency).each_with_index do |variant, index| %>
             <li>
-              <%= radio_button_tag "variant_id", variant.id, index == 0,
-                  'data-price' => variant.price_in(current_currency).money,
-                  'data-in-stock' => variant.can_supply?
-              %>
               <%= label_tag "variant_id_#{ variant.id }" do %>
                 <span class="variant-description">
-                  <%= (variant_options variant).split.last %>
+                  <%= (variant_options variant).split.drop(1).join(' ') %>
                 </span>
                 <% if variant_price variant %>
                   <span class="price diff"><%= variant_price variant %></span>
@@ -21,6 +17,10 @@
                   <span class="out-of-stock"><%= Spree.t(:out_of_stock) %></span>
                 <% end %>
               <% end %>
+              <%= radio_button_tag "variant_id", variant.id, index == 0,
+                  'data-price' => variant.price_in(current_currency).money,
+                  'data-in-stock' => variant.can_supply?
+              %>
             </li>
           <% end%>
         </ul>
