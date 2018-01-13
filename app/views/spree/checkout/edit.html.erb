@@ -23,7 +23,7 @@
           <% if @order.state == 'address' || !@order.email? %>
             <p class="field" style='clear: both'>
               <%= form.label :email, "Customer E-Mail", class: "font-size-12" %>
-              <%= form.text_field :email, class: 'form-control checkout-email-width', required: true %>
+              <%= form.text_field :email, class: 'form-control checkout-email-width', required: true, value: @order.user.email %>
             </p>
           <% end %>
           <%= form.hidden_field :state_lock_version %>
