@@ -21,7 +21,9 @@
       </tr>
       </thead>
       <tbody id="user_subscriptions">
-        <%= render @subscriptions %>
+        <% if @subscriptions %>
+          <%= render @subscriptions %>
+        <% end %>
       </tbody>
     </table>
   <% else %>

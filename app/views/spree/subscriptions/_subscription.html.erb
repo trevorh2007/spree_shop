@@ -1,7 +1,10 @@
-<% if subscription %>
   <tr class="font-size-12" data-id=<%= subscription.id %>>
     <td class="subscription-number"><%= link_to subscription.number, edit_subscription_path(subscription) %></td>
-    <td class="subscription-product-name"><%= subscription.variant.product.name %></td>
+    <% if subscription.variant.product %>
+    <td class="subscription-product-name"><%= subscription.variant.product.name unless !subscription.variant.product %></td>
+    <% else %>
+    <td class="subscription-product-name italic">Product Removed
+    <% end %>
     <td class="text-center subscription-price"><%= number_to_currency(subscription.price) %>/mo</td>
     <td class="text-center subscription-started"><%= subscription.parent_order.completed_at.to_date %></td>
     <td class="text-center subscription-frequency"><%= subscription.frequency.title.titleize %></td>
@@ -18,4 +21,3 @@
       <% end %>
     </td>
   </tr>
-<% end %>
